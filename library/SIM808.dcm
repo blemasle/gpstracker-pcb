@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP SIM808
+D GSM GPRS CELLULAR MODULE
+K
+F http://simcom.ee/documents/SIM808/SIM808_Hardware Design_V1.02.pdf
+$ENDCMP
+#
+#End Doc Library

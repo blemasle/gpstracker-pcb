@@ -1,0 +1,3 @@
+[submodule "library/master"]
+	path = library/master
+	url = https://github.com/freetronics/freetronics_kicad_library

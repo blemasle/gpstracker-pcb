@@ -1,0 +1,259 @@
+Cmp-Mod V01 Created by PcbNew   date = pon, 15 lut 2016, 17:15:11
+
+BeginCmp
+TimeStamp = 56C57581
+Path = 
+Reference = VIA**;
+ValeurCmp = VIA-GND;
+IdModule  = Libs:VIA-GND;
+EndCmp
+
+BeginCmp
+TimeStamp = 56C57585
+Path = 
+Reference = VIA**;
+ValeurCmp = VIA-GND;
+IdModule  = Libs:VIA-GND;
+EndCmp
+
+BeginCmp
+TimeStamp = 56C57589
+Path = 
+Reference = VIA**;
+ValeurCmp = VIA-GND;
+IdModule  = Libs:VIA-GND;
+EndCmp
+
+BeginCmp
+TimeStamp = 56C5752F
+Path = 
+Reference = VIA**;
+ValeurCmp = VIA-GND;
+IdModule  = Libs:VIA-GND;
+EndCmp
+
+BeginCmp
+TimeStamp = 56C57594
+Path = 
+Reference = VIA**;
+ValeurCmp = VIA-GND;
+IdModule  = Libs:VIA-GND;
+EndCmp
+
+BeginCmp
+TimeStamp = 56C5757D
+Path = 
+Reference = VIA**;
+ValeurCmp = VIA-GND;
+IdModule  = Libs:VIA-GND;
+EndCmp
+
+BeginCmp
+TimeStamp = 56C57535
+Path = 
+Reference = VIA**;
+ValeurCmp = VIA-GND;
+IdModule  = Libs:VIA-GND;
+EndCmp
+
+BeginCmp
+TimeStamp = 56C5752B
+Path = 
+Reference = VIA**;
+ValeurCmp = VIA-GND;
+IdModule  = Libs:VIA-GND;
+EndCmp
+
+BeginCmp
+TimeStamp = 56C57527
+Path = 
+Reference = VIA**;
+ValeurCmp = VIA-GND;
+IdModule  = Libs:VIA-GND;
+EndCmp
+
+BeginCmp
+TimeStamp = 56C5751C
+Path = 
+Reference = VIA**;
+ValeurCmp = VIA-GND;
+IdModule  = Libs:VIA-GND;
+EndCmp
+
+BeginCmp
+TimeStamp = 56C57518
+Path = 
+Reference = VIA**;
+ValeurCmp = VIA-GND;
+IdModule  = Libs:VIA-GND;
+EndCmp
+
+BeginCmp
+TimeStamp = 56C57514
+Path = 
+Reference = VIA**;
+ValeurCmp = VIA-GND;
+IdModule  = Libs:VIA-GND;
+EndCmp
+
+BeginCmp
+TimeStamp = 56C57510
+Path = 
+Reference = VIA**;
+ValeurCmp = VIA-GND;
+IdModule  = Libs:VIA-GND;
+EndCmp
+
+BeginCmp
+TimeStamp = 56C5750C
+Path = 
+Reference = VIA**;
+ValeurCmp = VIA-GND;
+IdModule  = Libs:VIA-GND;
+EndCmp
+
+BeginCmp
+TimeStamp = 56C574FC
+Path = 
+Reference = VIA**;
+ValeurCmp = VIA-GND;
+IdModule  = Libs:VIA-GND;
+EndCmp
+
+BeginCmp
+TimeStamp = 56C574F8
+Path = 
+Reference = VIA**;
+ValeurCmp = VIA-GND;
+IdModule  = Libs:VIA-GND;
+EndCmp
+
+BeginCmp
+TimeStamp = 56C574EF
+Path = 
+Reference = VIA**;
+ValeurCmp = VIA-GND;
+IdModule  = Libs:VIA-GND;
+EndCmp
+
+BeginCmp
+TimeStamp = 56C574EB
+Path = 
+Reference = VIA**;
+ValeurCmp = VIA-GND;
+IdModule  = Libs:VIA-GND;
+EndCmp
+
+BeginCmp
+TimeStamp = 56C574E7
+Path = 
+Reference = VIA**;
+ValeurCmp = VIA-GND;
+IdModule  = Libs:VIA-GND;
+EndCmp
+
+BeginCmp
+TimeStamp = 56C574E3
+Path = 
+Reference = VIA**;
+ValeurCmp = VIA-GND;
+IdModule  = Libs:VIA-GND;
+EndCmp
+
+BeginCmp
+TimeStamp = 56C574D9
+Path = 
+Reference = VIA**;
+ValeurCmp = VIA-GND;
+IdModule  = Libs:VIA-GND;
+EndCmp
+
+BeginCmp
+TimeStamp = 56C574D5
+Path = 
+Reference = VIA**;
+ValeurCmp = VIA-GND;
+IdModule  = Libs:VIA-GND;
+EndCmp
+
+BeginCmp
+TimeStamp = 56C574D1
+Path = 
+Reference = VIA**;
+ValeurCmp = VIA-GND;
+IdModule  = Libs:VIA-GND;
+EndCmp
+
+BeginCmp
+TimeStamp = 56C574CD
+Path = 
+Reference = VIA**;
+ValeurCmp = VIA-GND;
+IdModule  = Libs:VIA-GND;
+EndCmp
+
+BeginCmp
+TimeStamp = 56C11ECA
+Path = /56C13245
+Reference = C101;
+ValeurCmp = 4.7uF;
+IdModule  = Capacitors_SMD:C_0603_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 56C11ED0
+Path = /56C13CDA
+Reference = C102;
+ValeurCmp = 4.7uF;
+IdModule  = Capacitors_SMD:C_0603_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 56C11ED6
+Path = /56C1323E
+Reference = D101;
+ValeurCmp = LED;
+IdModule  = LEDs:LED_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = 56C11EEB
+Path = /56C13524
+Reference = U101;
+ValeurCmp = MCP73831;
+IdModule  = TO_SOT_Packages_SMD:SOT-23-5;
+EndCmp
+
+BeginCmp
+TimeStamp = 56C11EE2
+Path = /56C1323F
+Reference = R102;
+ValeurCmp = 2k;
+IdModule  = Resistors_SMD:R_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = 56C11EDC
+Path = /56C1323D
+Reference = R101;
+ValeurCmp = 470;
+IdModule  = Resistors_SMD:R_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = 56C57505
+Path = 
+Reference = VIA**;
+ValeurCmp = VIA-GND;
+IdModule  = Libs:VIA-GND;
+EndCmp
+
+BeginCmp
+TimeStamp = 56C57525
+Path = 
+Reference = VIA**;
+ValeurCmp = VIA-GND;
+IdModule  = Libs:VIA-GND;
+EndCmp
+
+EndListe
