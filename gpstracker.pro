@@ -1,4 +1,4 @@
-update=08/27/17 19:22:16
+update=12/13/17 00:11:32
 version=1
 last_client=kicad
 [pcbnew]
@@ -68,3 +68,4 @@ LibName36=C:/Apps/Engineering/KiCad/share/kicad/library/power
 LibName37=library/SIM808
 LibName38=C:/Apps/Engineering/KiCad/share/kicad/library/diode
 LibName39=library/freetronics/freetronics_schematic
+LibName40=library/custom-power
