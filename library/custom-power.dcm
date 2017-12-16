@@ -8,4 +8,8 @@ $CMP +3V3_REGUL
 K POWER, PWR
 $ENDCMP
 #
+$CMP +5V_FTDI
+K POWER, PWR
+$ENDCMP
+#
 #End Doc Library

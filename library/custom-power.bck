@@ -4,4 +4,8 @@ $CMP +3V3_FTDI
 K POWER, PWR
 $ENDCMP
 #
+$CMP +3V3_REGUL
+K POWER, PWR
+$ENDCMP
+#
 #End Doc Library
