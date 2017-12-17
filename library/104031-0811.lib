@@ -1,0 +1,47 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#(c) SnapEDA 2016 (snapeda.com)
+#This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA) with Design Exception 1.0
+#
+# 104031-0811
+#
+DEF 104031-0811 J 0 40 Y N 1 L N
+F0 "J" -301 622 50 H V L BNN
+F1 "104031-0811" -301 -703 50 H V L BNN
+F2 "MOLEX_104031-0811" 0 0 50 H I L BNN
+F3 "1.10 USD" 0 0 50 H I L BNN "Price"
+F4 "None" 0 0 50 H I L BNN "Package"
+F5 "1.10mm Pitch microSD Memory Card Connector, SMT, Push-Pull Type, 1.42mm Height, with Detect Switch" 0 0 50 H I L BNN "Description"
+F6 "Molex" 0 0 50 H I L BNN "MF"
+F7 "Good" 0 0 50 H I L BNN "Availability"
+F8 "104031-0811" 0 0 50 H I L BNN "MP"
+DRAW
+P 2 0 0 10 -300 600 300 600 N
+P 2 0 0 10 300 600 300 -600 N
+P 2 0 0 10 300 -600 -300 -600 N
+P 2 0 0 10 -300 -600 -300 -250 N
+P 2 0 0 10 -300 -250 -300 -150 N
+P 2 0 0 10 -300 -150 -300 600 N
+P 2 0 0 10 -300 -150 -150 -150 N
+P 2 0 0 10 -150 -150 -50 -100 N
+P 2 0 0 10 -50 -150 100 -150 N
+P 2 0 0 10 100 -150 100 -250 N
+P 2 0 0 10 100 -250 -300 -250 N
+X DAT2 1 -500 350 200 R 40 40 0 0 B 
+X CD/DAT3 2 -500 250 200 R 40 40 0 0 B 
+X CMD 3 -500 150 200 R 40 40 0 0 I 
+X VDD 4 -500 -450 200 R 40 40 0 0 I 
+X CLK 5 -500 50 200 R 40 40 0 0 I C
+X DAT0 7 -500 550 200 R 40 40 0 0 B 
+X DAT1 8 -500 450 200 R 40 40 0 0 B 
+X VSS 6 -500 -550 200 R 40 40 0 0 I 
+X CARD_DET1 9 -500 -150 200 R 40 40 0 0 P 
+X CARD_DET2 10 -500 -250 200 R 40 40 0 0 P 
+X GND G1 500 -500 200 L 40 40 0 0 I 
+X GND G2 500 -500 200 L 40 40 0 0 I 
+X GND G3 500 -500 200 L 40 40 0 0 I 
+X GND G4 500 -500 200 L 40 40 0 0 I 
+ENDDRAW
+ENDDEF
+#
+# End Library

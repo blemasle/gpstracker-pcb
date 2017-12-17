@@ -1,0 +1,15 @@
+(module ABS07-120-32768kHz-T (layer F.Cu)
+  (at 0 0)
+  (descr "Abracon Corporation ABS07-120-32.768kHz-T Tuning Fork Crystal (SMD)")
+  (tags CRYSTAL)
+  (fp_text reference ABS07-120-32768kHz-T (at 0 2.8) (layer F.SilkS) hide
+    (effects (font (size 1 1) (thickness 0.2)))
+  )
+  (fp_text value VAL** (at 0 -2.5) (layer F.SilkS) hide
+    (effects (font (size 1 1) (thickness 0.2)))
+  )
+  (fp_line (start -0.625 0.825) (end 0.625 0.825) (layer F.SilkS) (width 0.14986))
+  (fp_line (start -0.625 -0.825) (end 0.625 -0.825) (layer F.SilkS) (width 0.14986))
+  (pad 2 smd rect (at 1.25 0) (size 1 1.8) (layers F.Cu F.Paste F.Mask))
+  (pad 1 smd rect (at -1.25 0) (size 1 1.8) (layers F.Cu F.Paste F.Mask))
+)

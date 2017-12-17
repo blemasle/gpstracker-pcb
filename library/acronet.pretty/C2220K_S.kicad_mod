@@ -1,0 +1,16 @@
+(module C2220K_S (layer F.Cu)
+  (at 0 0)
+  (descr "Ceramic Chip Capacitor Kemet 2220 Reflow Solder Simple SilkScreen (SMD)")
+  (tags "CERAMIC CHIP CAPACITOR KEMET 2220 REFLOW SOLDER")
+  (attr smd)
+  (fp_text reference C2220K_S (at 0 -4.2) (layer B.SilkS) hide
+    (effects (font (size 1 1) (thickness 0.2)))
+  )
+  (fp_text value VAL** (at 0 4.5) (layer B.SilkS) hide
+    (effects (font (size 1 1) (thickness 0.2)))
+  )
+  (fp_line (start -1.5 -2.42316) (end 1.5 -2.42316) (layer F.SilkS) (width 0.15))
+  (fp_line (start -1.5 2.42316) (end 1.5 2.42316) (layer F.SilkS) (width 0.15))
+  (pad 1 smd rect (at -2.54762 0) (size 1.84912 5.4991) (layers F.Cu F.Paste F.Mask))
+  (pad 2 smd rect (at 2.54762 0) (size 1.84912 5.4991) (layers F.Cu F.Paste F.Mask))
+)

@@ -1,0 +1,14 @@
+(module 47948-0001 (layer F.Cu) (tedit 56B86B9E)
+  (descr "Molex 47948-001 2.4GHz Surface Mount Device On-Ground Antenna (SMD)")
+  (tags ANTENNA)
+  (fp_text reference VAL** (at 0 3.55) (layer F.SilkS) hide
+    (effects (font (size 1 1) (thickness 0.2)))
+  )
+  (fp_text value 47948-0001 (at 0 -3.55) (layer F.SilkS) hide
+    (effects (font (size 1 1) (thickness 0.2)))
+  )
+  (pad 4 smd rect (at -0.97 0.97) (size 1.54 1.54) (layers F.Cu F.Paste F.Mask))
+  (pad 3 smd rect (at -0.97 -0.97) (size 1.54 1.54) (layers F.Cu F.Paste F.Mask))
+  (pad 2 smd rect (at 0.97 -0.97) (size 1.54 1.54) (layers F.Cu F.Paste F.Mask))
+  (pad 1 smd rect (at 0.97 0.97) (size 1.54 1.54) (layers F.Cu F.Paste F.Mask))
+)

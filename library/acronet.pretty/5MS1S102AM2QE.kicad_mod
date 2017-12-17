@@ -1,0 +1,17 @@
+(module 5MS1S102AM2QE (layer F.Cu) (tedit 5800E61A)
+  (descr "NINIGI 5MS1S102AM2QE Slide Switch (PTH)")
+  (tags "SLIDE SWITCH")
+  (fp_text reference VAL** (at 0 5) (layer F.SilkS) hide
+    (effects (font (size 1 1) (thickness 0.2)))
+  )
+  (fp_text value 5MS1S102AM2QE (at 0 -5) (layer F.Fab) hide
+    (effects (font (size 1 1) (thickness 0.2)))
+  )
+  (fp_line (start -8 -4) (end 8 -4) (layer F.SilkS) (width 0.15))
+  (fp_line (start 8 -4) (end 8 4) (layer F.SilkS) (width 0.15))
+  (fp_line (start 8 4) (end -8 4) (layer F.SilkS) (width 0.15))
+  (fp_line (start -8 4) (end -8 -4) (layer F.SilkS) (width 0.15))
+  (pad 3 thru_hole circle (at 4.7 0) (size 2.65 2.65) (drill 1.85) (layers *.Cu *.Mask F.SilkS))
+  (pad 2 thru_hole circle (at 0 0) (size 2.65 2.65) (drill 1.85) (layers *.Cu *.Mask F.SilkS))
+  (pad 1 thru_hole circle (at -4.7 0) (size 2.65 2.65) (drill 1.85) (layers *.Cu *.Mask F.SilkS))
+)
