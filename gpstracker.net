@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source D:\working-copies\Engineering\gpstacker\gpstracker.sch)
-    (date "12/18/17 21:53:01")
+    (date "12/19/17 00:10:25")
     (tool "Eeschema 4.0.6")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -52,7 +52,7 @@
       (tstamp 59A3625C))
     (comp (ref U1)
       (value MCP73832-5-OT)
-      (footprint TO_SOT_Packages_SMD:SOT-23-5)
+      (footprint TO_SOT_Packages_SMD:SOT-23-5_HandSoldering)
       (libsource (lib gpstracker-cache) (part MCP73832-5-OT-RESCUE-gpstracker))
       (sheetpath (names /) (tstamps /))
       (tstamp 59A36575))
@@ -305,7 +305,7 @@
       (tstamp 5A36AB54))
     (comp (ref Q1)
       (value DMP1045U)
-      (footprint TO_SOT_Packages_SMD:TO-252-2)
+      (footprint TO_SOT_Packages_SMD:SOT-23_Handsoldering)
       (libsource (lib device) (part Q_PMOS_GDS))
       (sheetpath (names /) (tstamps /))
       (tstamp 5A36A98F))
