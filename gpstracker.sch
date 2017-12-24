@@ -66,7 +66,6 @@ LIBS:Logic_CMOS_4000
 LIBS:Logic_CMOS_IEEE
 LIBS:Logic_Programmable
 LIBS:Logic_TTL_IEEE
-LIBS:logo
 LIBS:maxim
 LIBS:MCU_AnalogDevices
 LIBS:MCU_Infineon
@@ -344,11 +343,11 @@ F 3 "" H 6050 5750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 NoConn ~ 6150 5550
-Text Label 5650 5650 0    60   ~ 0
+Text Label 5700 5650 0    60   ~ 0
 SIMDATA
-Text Label 5650 5250 0    60   ~ 0
+Text Label 5700 5250 0    60   ~ 0
 SIMRST
-Text Label 5650 5350 0    60   ~ 0
+Text Label 5700 5450 0    60   ~ 0
 SIMCLK
 Text Notes 4750 4900 0    120  ~ 24
 SIM card
@@ -566,7 +565,6 @@ F 3 "" H 4650 1200 50  0001 C CNN
 	1    4650 1200
 	1    0    0    -1  
 $EndComp
-NoConn ~ 5550 5550
 Text Notes 9200 800  0    120  ~ 24
 GPS & GSM
 $Comp
@@ -1453,6 +1451,32 @@ F 6 "6.30mm" H 7200 2350 60  0001 C CNN "Package"
 	1    7200 2350
 	1    0    0    -1  
 $EndComp
+NoConn ~ 3050 5200
+$Comp
+L CP C19
+U 1 1 5A38D9EB
+P 600 3500
+F 0 "C19" H 625 3600 50  0000 L CNN
+F 1 "100uF" H 550 3700 50  0000 L CNN
+F 2 "Capacitors_SMD:CP_Elec_6.3x7.7" H 638 3350 50  0001 C CNN
+F 3 "" H 600 3500 50  0001 C CNN
+F 4 "Panasonic" H 600 3500 60  0001 C CNN "Manufacturer"
+F 5 "EEE-TPC101XAP" H 600 3500 60  0001 C CNN "Manufacturer part number"
+F 6 "6.30mm" H 600 3500 60  0001 C CNN "Package"
+	1    600  3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR047
+U 1 1 5A38E1D4
+P 600 3650
+F 0 "#PWR047" H 600 3400 50  0001 C CNN
+F 1 "GND" H 600 3500 50  0000 C CNN
+F 2 "" H 600 3650 50  0001 C CNN
+F 3 "" H 600 3650 50  0001 C CNN
+	1    600  3650
+	1    0    0    -1  
+$EndComp
 Wire Wire Line
 	1600 750  1600 1000
 Connection ~ 1600 900 
@@ -1473,13 +1497,7 @@ Wire Wire Line
 	1050 5500 1150 5500
 Connection ~ 1050 5500
 Wire Wire Line
-	5550 5150 6150 5150
-Wire Wire Line
 	6050 5150 6050 5050
-Wire Wire Line
-	5550 5250 6150 5250
-Wire Wire Line
-	5550 5350 6150 5350
 Wire Wire Line
 	6150 5450 6050 5450
 Wire Wire Line
@@ -1559,10 +1577,6 @@ Wire Wire Line
 	4650 1050 4650 1000
 Connection ~ 4650 1000
 Connection ~ 6050 5150
-Wire Wire Line
-	5550 5450 5650 5450
-Wire Wire Line
-	5650 5450 5650 5650
 Wire Wire Line
 	4400 7100 4600 7100
 Wire Wire Line
@@ -1850,37 +1864,38 @@ Wire Wire Line
 Connection ~ 3950 3850
 Wire Wire Line
 	3050 4050 3500 4050
-NoConn ~ 3050 5200
-$Comp
-L CP C19
-U 1 1 5A38D9EB
-P 600 3500
-F 0 "C19" H 625 3600 50  0000 L CNN
-F 1 "100uF" H 550 3700 50  0000 L CNN
-F 2 "Capacitors_SMD:CP_Elec_6.3x7.7" H 638 3350 50  0001 C CNN
-F 3 "" H 600 3500 50  0001 C CNN
-F 4 "Panasonic" H 600 3500 60  0001 C CNN "Manufacturer"
-F 5 "EEE-TPC101XAP" H 600 3500 60  0001 C CNN "Manufacturer part number"
-F 6 "6.30mm" H 600 3500 60  0001 C CNN "Package"
-	1    600  3500
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	600  3350 600  3200
 Connection ~ 800  3200
-$Comp
-L GND #PWR047
-U 1 1 5A38E1D4
-P 600 3650
-F 0 "#PWR047" H 600 3400 50  0001 C CNN
-F 1 "GND" H 600 3500 50  0000 C CNN
-F 2 "" H 600 3650 50  0001 C CNN
-F 3 "" H 600 3650 50  0001 C CNN
-	1    600  3650
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	4350 4650 4350 4750
 Wire Wire Line
 	4350 5050 4350 5250
+Wire Wire Line
+	5650 5150 6150 5150
+Wire Wire Line
+	5650 5150 5650 5250
+Wire Wire Line
+	5650 5250 5550 5250
+Wire Wire Line
+	5550 5150 5600 5150
+Wire Wire Line
+	5600 5150 5600 5200
+Wire Wire Line
+	5600 5200 5700 5200
+Wire Wire Line
+	5700 5200 5700 5250
+Wire Wire Line
+	5700 5250 6150 5250
+Wire Wire Line
+	5550 5550 5650 5550
+Wire Wire Line
+	5650 5550 5650 5650
+Wire Wire Line
+	5550 5450 6000 5450
+Wire Wire Line
+	6000 5450 6000 5350
+Wire Wire Line
+	6000 5350 6150 5350
+NoConn ~ 5550 5350
 $EndSCHEMATC

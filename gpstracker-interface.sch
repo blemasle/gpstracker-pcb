@@ -66,7 +66,6 @@ LIBS:Logic_CMOS_4000
 LIBS:Logic_CMOS_IEEE
 LIBS:Logic_Programmable
 LIBS:Logic_TTL_IEEE
-LIBS:logo
 LIBS:maxim
 LIBS:MCU_AnalogDevices
 LIBS:MCU_Infineon
