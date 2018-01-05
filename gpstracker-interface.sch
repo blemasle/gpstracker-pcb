@@ -2,73 +2,66 @@ EESchema Schematic File Version 2
 LIBS:SIM808
 LIBS:freetronics_schematic
 LIBS:custom-power
-LIBS:74xgxx
-LIBS:74xx
-LIBS:ac-dc
-LIBS:actel
-LIBS:adc-dac
-LIBS:allegro
-LIBS:Altera
-LIBS:analog_devices
+LIBS:custom-charge
+LIBS:Amplifier_Audio
+LIBS:Amplifier_Buffer
+LIBS:Amplifier_Current
+LIBS:Amplifier_Difference
+LIBS:Amplifier_Instrumentation
+LIBS:Amplifier_Operational
+LIBS:Amplifier_Video
+LIBS:Analog
+LIBS:Analog_ADC
+LIBS:Analog_DAC
 LIBS:Analog_Switch
-LIBS:analog_switches
-LIBS:atmel
 LIBS:Audio
 LIBS:Battery_Management
-LIBS:bbd
-LIBS:bosch
-LIBS:brooktre
-LIBS:cmos_ieee
-LIBS:cmos4000
-LIBS:conn
+LIBS:Comparator
 LIBS:Connector_Generic
 LIBS:Connector_Generic_Shielded
 LIBS:Connector_Specialized
-LIBS:contrib
 LIBS:Converter_DCDC
 LIBS:CPLD_Altera
-LIBS:cypress
-LIBS:dc-dc
-LIBS:device
-LIBS:digital-audio
+LIBS:CPU
+LIBS:Device
 LIBS:Diode
-LIBS:display
+LIBS:Diode_Laser
 LIBS:Display_Character
 LIBS:Display_Graphic
 LIBS:Driver_Display
 LIBS:Driver_FET
 LIBS:Driver_LED
-LIBS:dsp
+LIBS:Driver_Motor
+LIBS:Driver_Relay
 LIBS:DSP_Freescale
 LIBS:DSP_Microchip_DSPIC33
 LIBS:DSP_Texas
-LIBS:elec-unifil
-LIBS:ESD_Protection
 LIBS:FPGA_Actel
-LIBS:ftdi
-LIBS:gennum
 LIBS:Graphic
-LIBS:hc11
-LIBS:intel
-LIBS:interface
+LIBS:Interface
 LIBS:Interface_CAN_LIN
+LIBS:Interface_CurrentLoop
 LIBS:Interface_Ethernet
+LIBS:Interface_Expansion
+LIBS:Interface_HID
+LIBS:Interface_LineDriver
+LIBS:Interface_Optical
 LIBS:Interface_Telecom
+LIBS:Interface_UART
 LIBS:Interface_USB
-LIBS:ir
-LIBS:Lattice
+LIBS:Isolator
+LIBS:Isolator_Analog
+LIBS:Jumper
 LIBS:LED
-LIBS:leds
-LIBS:linear
 LIBS:Logic_74xgxx
 LIBS:Logic_74xx
 LIBS:Logic_CMOS_4000
 LIBS:Logic_CMOS_IEEE
+LIBS:Logic_LevelTranslator
 LIBS:Logic_Programmable
 LIBS:Logic_TTL_IEEE
-LIBS:logo
-LIBS:maxim
 LIBS:MCU_AnalogDevices
+LIBS:MCU_Cypress
 LIBS:MCU_Infineon
 LIBS:MCU_Microchip_PIC10
 LIBS:MCU_Microchip_PIC12
@@ -76,6 +69,9 @@ LIBS:MCU_Microchip_PIC16
 LIBS:MCU_Microchip_PIC18
 LIBS:MCU_Microchip_PIC24
 LIBS:MCU_Microchip_PIC32
+LIBS:MCU_Microchip_SAME
+LIBS:MCU_Microchip_SAML
+LIBS:MCU_NXP_HC11
 LIBS:MCU_NXP_Kinetis
 LIBS:MCU_NXP_LPC
 LIBS:MCU_NXP_S08
@@ -84,58 +80,38 @@ LIBS:MCU_SiFive
 LIBS:MCU_SiliconLabs
 LIBS:MCU_ST_STM8
 LIBS:MCU_ST_STM32
+LIBS:MCU_Texas
 LIBS:MCU_Texas_MSP430
 LIBS:Mechanical
-LIBS:memory
+LIBS:Memory_Controller
 LIBS:Memory_EEPROM
 LIBS:Memory_Flash
 LIBS:Memory_NVRAM
 LIBS:Memory_RAM
-LIBS:microchip
-LIBS:microchip_dspic33dsc
-LIBS:microchip_pic10mcu
-LIBS:microchip_pic12mcu
-LIBS:microchip_pic16mcu
-LIBS:microchip_pic18mcu
-LIBS:microchip_pic24mcu
-LIBS:microchip_pic32mcu
-LIBS:microcontrollers
-LIBS:modules
+LIBS:Memory_UniqueID
 LIBS:Motor
-LIBS:motor_drivers
-LIBS:motorola
-LIBS:motors
-LIBS:msp430
-LIBS:nordicsemi
-LIBS:nxp
-LIBS:nxp_armmcu
-LIBS:onsemi
-LIBS:opto
 LIBS:Oscillator
-LIBS:Oscillators
-LIBS:philips
 LIBS:Potentiometer_Digital
 LIBS:power
 LIBS:Power_Management
 LIBS:Power_Protection
-LIBS:powerint
+LIBS:Power_Supervisor
 LIBS:pspice
 LIBS:Reference_Current
 LIBS:Reference_Voltage
-LIBS:references
-LIBS:regul
 LIBS:Regulator_Controller
 LIBS:Regulator_Current
 LIBS:Regulator_Linear
 LIBS:Regulator_SwitchedCapacitor
 LIBS:Regulator_Switching
 LIBS:Relay
-LIBS:relays
+LIBS:Relay_SolidState
 LIBS:RF_AM_FM
 LIBS:RF_Bluetooth
+LIBS:RF_Mixer
 LIBS:RF_Module
+LIBS:RF_RFID
 LIBS:RF_WiFi
-LIBS:rfcom
 LIBS:Sensor
 LIBS:Sensor_Audio
 LIBS:Sensor_Current
@@ -146,37 +122,20 @@ LIBS:Sensor_Motion
 LIBS:Sensor_MultiFunction
 LIBS:Sensor_Optical
 LIBS:Sensor_Pressure
+LIBS:Sensor_Proximity
 LIBS:Sensor_Temperature
 LIBS:Sensor_Touch
 LIBS:Sensor_Voltage
-LIBS:sensors
-LIBS:silabs
-LIBS:siliconi
-LIBS:stm8
-LIBS:stm32
-LIBS:supertex
 LIBS:Switch
-LIBS:switches
-LIBS:texas
 LIBS:Timer
-LIBS:transf
+LIBS:Timer_RTC
 LIBS:Transformer
+LIBS:Transistor_Array
 LIBS:Transistor_BJT
 LIBS:Transistor_FET
 LIBS:Transistor_IGBT
-LIBS:transistors
-LIBS:triac_thyristor
-LIBS:ttl_ieee
 LIBS:Valve
-LIBS:valves
-LIBS:video
-LIBS:wiznet
-LIBS:Worldsemi
-LIBS:Xicor
-LIBS:xilinx
-LIBS:zetex
-LIBS:Zilog
-LIBS:custom-charge
+LIBS:Video
 LIBS:gpstracker-cache
 EELAYER 25 0
 EELAYER END
@@ -200,6 +159,9 @@ F 0 "U6" H 2250 3100 50  0000 L CNN
 F 1 "FT231XS" H 3100 3100 50  0000 L CNN
 F 2 "Housings_SSOP:SSOP-20_4.4x6.5mm_Pitch0.65mm" H 2800 2300 50  0001 C CNN
 F 3 "" H 2800 2300 50  0001 C CNN
+F 4 "FTDI" H 2800 2300 60  0001 C CNN "Manufacturer"
+F 5 "FT231XS-U" H 2800 2300 60  0001 C CNN "Manufacturer part number"
+F 6 "SSOP-20" H 2800 2300 60  0001 C CNN "Package"
 	1    2800 2300
 	1    0    0    -1  
 $EndComp
@@ -211,6 +173,9 @@ F 0 "C12" H 2025 2650 50  0000 L CNN
 F 1 "0.1uF" H 2025 2450 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0805_HandSoldering" H 2038 2400 50  0001 C CNN
 F 3 "" H 2000 2550 50  0001 C CNN
+F 4 "Kemet" H 2000 2550 60  0001 C CNN "Manufacturer"
+F 5 "C0805C104M3RACTU" H 2000 2550 60  0001 C CNN "Manufacturer part number"
+F 6 "0805" H 2000 2550 60  0001 C CNN "Package"
 	1    2000 2550
 	1    0    0    -1  
 $EndComp
@@ -222,6 +187,9 @@ F 0 "C13" H 1375 2400 50  0000 L CNN
 F 1 "47pF" H 1375 2200 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0805_HandSoldering" H 1388 2150 50  0001 C CNN
 F 3 "" H 1350 2300 50  0001 C CNN
+F 4 "Kemet" H 1350 2300 60  0001 C CNN "Manufacturer"
+F 5 "C0805X475C4RACTU" H 1350 2300 60  0001 C CNN "Manufacturer part number"
+F 6 "0805" H 1350 2300 60  0001 C CNN "Package"
 	1    1350 2300
 	1    0    0    -1  
 $EndComp
@@ -233,6 +201,9 @@ F 0 "C14" H 1625 1650 50  0000 L CNN
 F 1 "0.1uF" H 1625 1450 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0805_HandSoldering" H 1638 1400 50  0001 C CNN
 F 3 "" H 1600 1550 50  0001 C CNN
+F 4 "Kemet" H 1600 1550 60  0001 C CNN "Manufacturer"
+F 5 "C0805C104M3RACTU" H 1600 1550 60  0001 C CNN "Manufacturer part number"
+F 6 "0805" H 1600 1550 60  0001 C CNN "Package"
 	1    1600 1550
 	1    0    0    -1  
 $EndComp
@@ -266,6 +237,9 @@ F 0 "C11" H 1025 2400 50  0000 L CNN
 F 1 "47pF" H 1025 2200 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0805_HandSoldering" H 1038 2150 50  0001 C CNN
 F 3 "" H 1000 2300 50  0001 C CNN
+F 4 "Kemet" H 1000 2300 60  0001 C CNN "Manufacturer"
+F 5 "C0805X475C4RACTU" H 1000 2300 60  0001 C CNN "Manufacturer part number"
+F 6 "0805" H 1000 2300 60  0001 C CNN "Package"
 	1    1000 2300
 	1    0    0    -1  
 $EndComp
@@ -365,6 +339,8 @@ F 0 "J1" H 900 1450 50  0000 L CNN
 F 1 "Molex 47346-0001" H 900 1350 50  0001 L CNN
 F 2 "Connectors_USB:USB_Micro-B_Molex_47346-0001" H 1250 950 50  0001 C CNN
 F 3 "" H 1250 950 50  0001 C CNN
+F 4 "Molex" H 1100 1000 60  0001 C CNN "Manufacturer"
+F 5 "47346-0001" H 1100 1000 60  0001 C CNN "Manufacturer part number"
 	1    1100 1000
 	0    1    1    0   
 $EndComp
@@ -525,13 +501,16 @@ Wire Wire Line
 	1300 1350 1700 1350
 Connection ~ 1300 1350
 $Comp
-L CP C10
+L C C10
 U 1 1 5A371566
 P 1300 1550
 F 0 "C10" H 1325 1650 50  0000 L CNN
 F 1 "4.7uF" H 1325 1450 50  0000 L CNN
-F 2 "Capacitors_SMD:C_1210_HandSoldering" H 1338 1400 50  0001 C CNN
+F 2 "Capacitors_SMD:C_0805_HandSoldering" H 1338 1400 50  0001 C CNN
 F 3 "" H 1300 1550 50  0001 C CNN
+F 4 "Kemet" H 1300 1550 60  0001 C CNN "Manufacturer"
+F 5 "C0805X475C4RACTU" H 1300 1550 60  0001 C CNN "Manufacturer part number"
+F 6 "0805" H 1300 1550 60  0001 C CNN "Package"
 	1    1300 1550
 	1    0    0    -1  
 $EndComp
