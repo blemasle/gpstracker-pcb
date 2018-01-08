@@ -250,6 +250,9 @@ F 0 "U1" H 1300 1550 50  0000 L CNN
 F 1 "MCP73832-5-OT" H 1650 1550 50  0000 L CNN
 F 2 "TO_SOT_Packages_SMD:SOT-23-5_HandSoldering" H 1650 1050 50  0001 L CIN
 F 3 "" H 1450 1250 50  0001 C CNN
+F 4 "Microchip" H 1600 1300 60  0001 C CNN "Manufacturer"
+F 5 "MCP73832T-5ACI/OT" H 1600 1300 60  0001 C CNN "Manufacturer part number"
+F 6 "SOT-23" H 1600 1300 60  0001 C CNN "Package"
 	1    1600 1300
 	1    0    0    -1  
 $EndComp
@@ -289,6 +292,8 @@ F 0 "J3" H 6550 5950 50  0000 R CNN
 F 1 "47553-0001" H 6600 5850 50  0000 R CNN
 F 2 "acronet:47553-0001" H 6650 5800 50  0001 C CNN
 F 3 "" H 6600 5450 50  0000 C CNN
+F 4 "Molex" H 6650 5450 60  0001 C CNN "Manufacturer"
+F 5 "47553-0001" H 6650 5450 60  0001 C CNN "Manufacturer part number"
 	1    6650 5450
 	1    0    0    -1  
 $EndComp
@@ -331,6 +336,9 @@ F 0 "TV1" H 4850 5100 60  0000 C CNN
 F 1 "SMF05C" H 5400 5000 60  0000 C CNN
 F 2 "TO_SOT_Packages_SMD:SOT-363_SC-70-6_Handsoldering" H 5400 4900 60  0001 C CNN
 F 3 "" H 5400 5100 60  0000 C CNN
+F 4 "ON Semiconductor" H 5100 5350 60  0001 C CNN "Manufacturer"
+F 5 "SMF05C" H 5100 5350 60  0001 C CNN "Manufacturer part number"
+F 6 "SOT-363" H 5100 5350 60  0001 C CNN "Package"
 	1    5100 5350
 	0    1    1    0   
 $EndComp
@@ -361,6 +369,8 @@ F 0 "J6" H 5500 4150 50  0000 C CNN
 F 1 "Micro_SD_Card" H 6800 4150 50  0000 R CNN
 F 2 "104031-0811:MOLEX_104031-0811" H 7300 3850 50  0001 C CNN
 F 3 "" H 6150 3550 50  0001 C CNN
+F 4 "Molex" H 6150 3550 60  0001 C CNN "Manufacturer"
+F 5 "104031-0811" H 6150 3550 60  0001 C CNN "Manufacturer part number"
 	1    6150 3550
 	1    0    0    -1  
 $EndComp
@@ -423,6 +433,8 @@ F 0 "ICSP1" H 2350 7300 50  0000 C CNN
 F 1 "CONN_02X03" H 2350 6900 50  0000 C CNN
 F 2 "custom-conn:VASCH3x2" H 2350 5900 50  0001 C CNN
 F 3 "" H 2350 5900 50  0001 C CNN
+F 4 "FCI" H 2350 7100 60  0001 C CNN "Manufacturer"
+F 5 "75869-131LF" H 2350 7100 60  0001 C CNN "Manufacturer part number"
 	1    2350 7100
 	1    0    0    -1  
 $EndComp
@@ -492,6 +504,9 @@ F 0 "U4" H 5200 900 50  0000 C CNN
 F 1 "MCP1700T-3302E/TT" H 5100 1400 50  0000 C CNN
 F 2 "TO_SOT_Packages_SMD:SOT-23_Handsoldering" H 5100 1200 50  0001 C CNN
 F 3 "" H 5100 1200 50  0001 C CNN
+F 4 "Microchip" H 5100 1100 60  0001 C CNN "Manufacturer"
+F 5 "MCP1700T-3302E/TT" H 5100 1100 60  0001 C CNN "Manufacturer part number"
+F 6 "SOT-23-3" H 5100 1100 60  0001 C CNN "Package"
 	1    5100 1100
 	1    0    0    -1  
 $EndComp
@@ -622,6 +637,9 @@ F 0 "D3" H 4050 1150 50  0000 C CNN
 F 1 "B130LAW" H 4050 950 50  0000 C CNN
 F 2 "Diodes_SMD:D_SOD-123" H 4050 1050 50  0001 C CNN
 F 3 "" H 4050 1050 50  0001 C CNN
+F 4 "Diodes Incorporated" H 4050 1050 60  0001 C CNN "Manufacturer"
+F 5 "B130LAW-7-F" H 4050 1050 60  0001 C CNN "Manufacturer part number"
+F 6 "SOD123" H 4050 1050 60  0001 C CNN "Package"
 	1    4050 1050
 	0    -1   -1   0   
 $EndComp
@@ -650,6 +668,9 @@ F 0 "LED3" H 6350 1050 50  0000 C CNN
 F 1 "Power" H 6350 850 50  0000 C CNN
 F 2 "LEDs:LED_0805_HandSoldering" H 6350 950 60  0001 C CNN
 F 3 "" H 6350 950 60  0000 C CNN
+F 4 "Kingbright" H 6350 950 60  0001 C CNN "Manufacturer"
+F 5 "APT2012SGC" H 6350 950 60  0001 C CNN "Manufacturer part number"
+F 6 "0805" H 6350 950 60  0001 C CNN "Package"
 	1    6350 950 
 	1    0    0    -1  
 $EndComp
@@ -661,6 +682,9 @@ F 0 "LED4" H 6400 1350 50  0000 C CNN
 F 1 "SIM_Power" H 6400 1150 50  0000 C CNN
 F 2 "LEDs:LED_0805_HandSoldering" H 6400 1250 60  0001 C CNN
 F 3 "" H 6400 1250 60  0000 C CNN
+F 4 "Kingbright" H 6400 1250 60  0001 C CNN "Manufacturer"
+F 5 "APT2012SECK" H 6400 1250 60  0001 C CNN "Manufacturer part number"
+F 6 "0805" H 6400 1250 60  0001 C CNN "Package"
 	1    6400 1250
 	1    0    0    -1  
 $EndComp
@@ -672,6 +696,8 @@ F 0 "LED5" H 6400 1650 50  0000 C CNN
 F 1 "Network" H 6400 1450 50  0000 C CNN
 F 2 "LEDs:LED_0805_HandSoldering" H 6400 1550 60  0001 C CNN
 F 3 "" H 6400 1550 60  0000 C CNN
+F 4 "Kingbright" H 6400 1550 60  0001 C CNN "Manufacturer"
+F 5 "APT2012EC" H 6400 1550 60  0001 C CNN "Manufacturer part number"
 	1    6400 1550
 	1    0    0    -1  
 $EndComp
@@ -711,29 +737,10 @@ F 0 "R8" V 7030 950 50  0000 C CNN
 F 1 "1k" V 6950 950 50  0000 C CNN
 F 2 "Resistors_SMD:R_0805_HandSoldering" H 6950 950 60  0001 C CNN
 F 3 "" H 6950 950 60  0000 C CNN
+F 4 "Panasonic" V 6950 950 60  0001 C CNN "Manufacturer"
+F 5 "ERJ-6GEYJ102V" V 6950 950 60  0001 C CNN "Manufacturer part number"
+F 6 "0805" V 6950 950 60  0001 C CNN "Package"
 	1    6950 950 
-	0    -1   -1   0   
-$EndComp
-$Comp
-L R R9
-U 1 1 5A36BE2E
-P 6950 1250
-F 0 "R9" V 7030 1250 50  0000 C CNN
-F 1 "1k" V 6950 1250 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805_HandSoldering" H 6950 1250 60  0001 C CNN
-F 3 "" H 6950 1250 60  0000 C CNN
-	1    6950 1250
-	0    -1   -1   0   
-$EndComp
-$Comp
-L R R10
-U 1 1 5A36F056
-P 6950 1550
-F 0 "R10" V 7030 1550 50  0000 C CNN
-F 1 "1k" V 6950 1550 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805_HandSoldering" H 6950 1550 60  0001 C CNN
-F 3 "" H 6950 1550 60  0000 C CNN
-	1    6950 1550
 	0    -1   -1   0   
 $EndComp
 $Comp
@@ -744,6 +751,9 @@ F 0 "U5" H 5700 7475 50  0000 R CNN
 F 1 "DS3231SN" H 5700 7400 50  0000 R CNN
 F 2 "Housings_SOIC:SOIC-16W_7.5x10.3mm_Pitch1.27mm" H 5850 6600 50  0001 L CNN
 F 3 "" H 6070 7250 50  0001 C CNN
+F 4 "Maxim Integrated" H 5800 7000 60  0001 C CNN "Manufacturer"
+F 5 "DS3231SN#" H 5800 7000 60  0001 C CNN "Manufacturer part number"
+F 6 "SOIC-16" H 5800 7000 60  0001 C CNN "Package"
 	1    5800 7000
 	1    0    0    -1  
 $EndComp
@@ -801,29 +811,10 @@ F 0 "R6" V 4230 4150 50  0000 C CNN
 F 1 "10k" V 4150 4150 50  0000 C CNN
 F 2 "Resistors_SMD:R_0805_HandSoldering" H 4150 4150 60  0001 C CNN
 F 3 "" H 4150 4150 60  0000 C CNN
+F 4 "Panasonic" V 4150 4150 60  0001 C CNN "Manufacturer"
+F 5 "ERJ-6GEYJ103V" V 4150 4150 60  0001 C CNN "Manufacturer part number"
+F 6 "0805" V 4150 4150 60  0001 C CNN "Package"
 	1    4150 4150
-	-1   0    0    1   
-$EndComp
-$Comp
-L R R5
-U 1 1 5A378013
-P 3950 4150
-F 0 "R5" V 4030 4150 50  0000 C CNN
-F 1 "1k" V 3950 4150 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805_HandSoldering" H 3950 4150 60  0001 C CNN
-F 3 "" H 3950 4150 60  0000 C CNN
-	1    3950 4150
-	-1   0    0    1   
-$EndComp
-$Comp
-L R R4
-U 1 1 5A37812D
-P 3750 4150
-F 0 "R4" V 3830 4150 50  0000 C CNN
-F 1 "1k" V 3750 4150 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805_HandSoldering" H 3750 4150 60  0001 C CNN
-F 3 "" H 3750 4150 60  0000 C CNN
-	1    3750 4150
 	-1   0    0    1   
 $EndComp
 $Comp
@@ -834,6 +825,9 @@ F 0 "R11" V 5580 6400 50  0000 C CNN
 F 1 "160R" V 5500 6400 50  0000 C CNN
 F 2 "Resistors_SMD:R_0805_HandSoldering" H 5500 6400 60  0001 C CNN
 F 3 "" H 5500 6400 60  0000 C CNN
+F 4 "Panasonic" V 5500 6400 60  0001 C CNN "Manufacturer"
+F 5 "ERJ-6GEYJ161V" V 5500 6400 60  0001 C CNN "Manufacturer part number"
+F 6 "0805" V 5500 6400 60  0001 C CNN "Package"
 	1    5500 6400
 	0    1    1    0   
 $EndComp
@@ -847,6 +841,9 @@ F 0 "R12" V 6480 6550 50  0000 C CNN
 F 1 "20k" V 6400 6550 50  0000 C CNN
 F 2 "Resistors_SMD:R_0805_HandSoldering" H 6400 6550 60  0001 C CNN
 F 3 "" H 6400 6550 60  0000 C CNN
+F 4 "Panasonic" V 6400 6550 60  0001 C CNN "Manufacturer"
+F 5 "ERJ-6GEYJ203V" V 6400 6550 60  0001 C CNN "Manufacturer part number"
+F 6 "0805" V 6400 6550 60  0001 C CNN "Package"
 	1    6400 6550
 	-1   0    0    1   
 $EndComp
@@ -858,6 +855,8 @@ F 0 "BT2" H 6500 7550 50  0000 L CNN
 F 1 "Backup battery" H 6500 7450 50  0000 L CNN
 F 2 "Battery_Holders:Keystone_1058_1x2032-CoinCell" V 6400 7510 50  0001 C CNN
 F 3 "" V 6400 7510 50  0001 C CNN
+F 4 "Keystone" H 6400 7450 60  0001 C CNN "Manufacturer"
+F 5 "1058" H 6400 7450 60  0001 C CNN "Manufacturer part number"
 	1    6400 7450
 	1    0    0    -1  
 $EndComp
@@ -899,6 +898,9 @@ F 0 "R1" V 980 1400 50  0000 C CNN
 F 1 "2k" V 900 1400 50  0000 C CNN
 F 2 "Resistors_SMD:R_0805_HandSoldering" H 900 1400 60  0001 C CNN
 F 3 "" H 900 1400 60  0000 C CNN
+F 4 "Panasonic" V 900 1400 60  0001 C CNN "Manufacturer"
+F 5 "ERJ-6GEYJ202V" V 900 1400 60  0001 C CNN "Manufacturer part number"
+F 6 "0805" V 900 1400 60  0001 C CNN "Package"
 	1    900  1400
 	0    1    1    0   
 $EndComp
@@ -910,6 +912,9 @@ F 0 "R2" V 2230 1700 50  0000 C CNN
 F 1 "1k" V 2150 1700 50  0000 C CNN
 F 2 "Resistors_SMD:R_0805_HandSoldering" H 2150 1700 60  0001 C CNN
 F 3 "" H 2150 1700 60  0000 C CNN
+F 4 "Panasonic" V 2150 1700 60  0001 C CNN "Manufacturer"
+F 5 "ERJ-6GEYJ102V" V 2150 1700 60  0001 C CNN "Manufacturer part number"
+F 6 "0805" V 2150 1700 60  0001 C CNN "Package"
 	1    2150 1700
 	-1   0    0    1   
 $EndComp
@@ -918,9 +923,12 @@ L R R3
 U 1 1 5A385146
 P 2300 900
 F 0 "R3" V 2380 900 50  0000 C CNN
-F 1 "470R" V 2300 900 50  0000 C CNN
+F 1 "1k" V 2300 900 50  0000 C CNN
 F 2 "Resistors_SMD:R_0805_HandSoldering" H 2300 900 60  0001 C CNN
 F 3 "" H 2300 900 60  0000 C CNN
+F 4 "Panasonic" V 2300 900 60  0001 C CNN "Manufacturer"
+F 5 "ERJ-6GEYJ102V" V 2300 900 60  0001 C CNN "Manufacturer part number"
+F 6 "0805" V 2300 900 60  0001 C CNN "Package"
 	1    2300 900 
 	0    -1   -1   0   
 $EndComp
@@ -932,6 +940,8 @@ F 0 "BT1" H 2850 1850 50  0000 L CNN
 F 1 "External battery" H 2850 1750 50  0000 L CNN
 F 2 "Connectors_JST:JST_PH_S2B-PH-SM4-TB_02x2.00mm_Angled" V 2750 1810 50  0001 C CNN
 F 3 "" V 2750 1810 50  0001 C CNN
+F 4 "JST" H 2750 1750 60  0001 C CNN "Manufacturer"
+F 5 "S2B-PH-SM4-TB" H 2750 1750 60  0001 C CNN "Manufacturer part number"
 	1    2750 1750
 	1    0    0    -1  
 $EndComp
@@ -954,6 +964,9 @@ F 0 "R7" V 4380 1050 50  0000 C CNN
 F 1 "100k" V 4300 1050 50  0000 C CNN
 F 2 "Resistors_SMD:R_0805_HandSoldering" H 4300 1050 60  0001 C CNN
 F 3 "" H 4300 1050 60  0000 C CNN
+F 4 "Panasonic" V 4300 1050 60  0001 C CNN "Manufacturer"
+F 5 "ERJ-6GEYJ104V" V 4300 1050 60  0001 C CNN "Manufacturer part number"
+F 6 "0805" V 4300 1050 60  0001 C CNN "Package"
 	1    4300 1050
 	1    0    0    -1  
 $EndComp
@@ -1065,17 +1078,6 @@ Text Label 10900 3050 2    60   ~ 0
 ARD_HRX
 Text Label 8350 3050 0    60   ~ 0
 ARD_HTX
-$Comp
-L R R13
-U 1 1 5A39E1FF
-P 8650 2650
-F 0 "R13" V 8730 2650 50  0000 C CNN
-F 1 "10k" V 8650 2650 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805_HandSoldering" H 8650 2650 60  0001 C CNN
-F 3 "" H 8650 2650 60  0000 C CNN
-	1    8650 2650
-	-1   0    0    1   
-$EndComp
 NoConn ~ 8800 2450
 NoConn ~ 8800 2550
 NoConn ~ 8800 2650
@@ -1161,6 +1163,8 @@ F 0 "J4" H 8210 5070 50  0000 C CNN
 F 1 "CONN_COAXIAL" V 8315 4950 50  0000 C CNN
 F 2 "Connectors_Molex:Molex_Microcoaxial_RF" H 8200 4950 50  0001 C CNN
 F 3 "" H 8200 4950 50  0001 C CNN
+F 4 "Linx Technologies" H 8200 4950 60  0001 C CNN "Manufacturer"
+F 5 "CONUFL001-SMD" H 8200 4950 60  0001 C CNN "Manufacturer part number"
 	1    8200 4950
 	-1   0    0    -1  
 $EndComp
@@ -1172,6 +1176,8 @@ F 0 "J5" H 8500 5000 50  0000 C CNN
 F 1 "CONN_COAXIAL" V 8715 5050 50  0000 C CNN
 F 2 "Connectors_Molex:Molex_Microcoaxial_RF" H 8600 5050 50  0001 C CNN
 F 3 "" H 8600 5050 50  0001 C CNN
+F 4 "Linx Technologies" H 8600 5050 60  0001 C CNN "Manufacturer"
+F 5 "CONUFL001-SMD" H 8600 5050 60  0001 C CNN "Manufacturer part number"
 	1    8600 5050
 	-1   0    0    -1  
 $EndComp
@@ -1214,9 +1220,12 @@ L R R14
 U 1 1 5A35D19C
 P 4750 2950
 F 0 "R14" V 4830 2950 50  0000 C CNN
-F 1 "50k" V 4750 2950 50  0000 C CNN
+F 1 "51k" V 4750 2950 50  0000 C CNN
 F 2 "Resistors_SMD:R_0805_HandSoldering" H 4750 2950 60  0001 C CNN
 F 3 "" H 4750 2950 60  0000 C CNN
+F 4 "Panasonic" V 4750 2950 60  0001 C CNN "Manufacturer"
+F 5 "ERJ-6GEYJ513V" V 4750 2950 60  0001 C CNN "Manufacturer part number"
+F 6 "0805" V 4750 2950 60  0001 C CNN "Package"
 	1    4750 2950
 	-1   0    0    1   
 $EndComp
@@ -1225,9 +1234,12 @@ L R R15
 U 1 1 5A35D761
 P 4950 2950
 F 0 "R15" V 5030 2950 50  0000 C CNN
-F 1 "50k" V 4950 2950 50  0000 C CNN
+F 1 "51k" V 4950 2950 50  0000 C CNN
 F 2 "Resistors_SMD:R_0805_HandSoldering" H 4950 2950 60  0001 C CNN
 F 3 "" H 4950 2950 60  0000 C CNN
+F 4 "Panasonic" V 4950 2950 60  0001 C CNN "Manufacturer"
+F 5 "ERJ-6GEYJ513V" V 4950 2950 60  0001 C CNN "Manufacturer part number"
+F 6 "0805" V 4950 2950 60  0001 C CNN "Package"
 	1    4950 2950
 	-1   0    0    1   
 $EndComp
@@ -1239,6 +1251,9 @@ F 0 "LED1" H 1900 1000 50  0000 C CNN
 F 1 "Chg" H 1900 800 50  0000 C CNN
 F 2 "LEDs:LED_0805_HandSoldering" H 1900 900 60  0001 C CNN
 F 3 "" H 1900 900 60  0000 C CNN
+F 4 "Kingbright" H 1900 900 60  0001 C CNN "Manufacturer"
+F 5 "APT2012SECK" H 1900 900 60  0001 C CNN "Manufacturer part number"
+F 6 "0805" H 1900 900 60  0001 C CNN "Package"
 	1    1900 900 
 	-1   0    0    1   
 $EndComp
@@ -1250,6 +1265,9 @@ F 0 "LED2" H 2150 2200 50  0000 C CNN
 F 1 "Done" H 2150 2000 50  0000 C CNN
 F 2 "LEDs:LED_0805_HandSoldering" H 2150 2100 60  0001 C CNN
 F 3 "" H 2150 2100 60  0000 C CNN
+F 4 "Kingbright" H 2150 2100 60  0001 C CNN "Manufacturer"
+F 5 "APT2012SGC" H 2150 2100 60  0001 C CNN "Manufacturer part number"
+F 6 "0805" H 2150 2100 60  0001 C CNN "Package"
 	1    2150 2100
 	0    -1   -1   0   
 $EndComp
@@ -1261,6 +1279,9 @@ F 0 "U3" H 3750 7450 50  0000 C CNN
 F 1 "24LC512" H 4200 7450 50  0001 C CNN
 F 2 "Housings_SOIC:SOIC-8_3.9x4.9mm_Pitch1.27mm" H 4050 6950 50  0001 L CNN
 F 3 "" H 4000 7100 50  0001 C CNN
+F 4 "Microchip" H 4000 7200 60  0001 C CNN "Manufacturer"
+F 5 "24LC512T-I/SN" H 4000 7200 60  0001 C CNN "Manufacturer part number"
+F 6 "SOIC-8" H 4000 7200 60  0001 C CNN "Package"
 	1    4000 7200
 	1    0    0    -1  
 $EndComp
@@ -1321,6 +1342,9 @@ F 0 "Q1" V 4000 1500 50  0000 L CNN
 F 1 "DMP1045U" V 4100 1350 50  0000 L CNN
 F 2 "TO_SOT_Packages_SMD:SOT-23_Handsoldering" H 4000 1550 50  0001 C CNN
 F 3 "" H 3800 1450 50  0001 C CNN
+F 4 "Diodes Incorporated" V 3800 1450 60  0001 C CNN "Manufacturer"
+F 5 "DMP1045U-7" V 3800 1450 60  0001 C CNN "Manufacturer part number"
+F 6 "SOT-23-3" V 3800 1450 60  0001 C CNN "Package"
 	1    3800 1450
 	0    -1   1    0   
 $EndComp
@@ -1330,8 +1354,10 @@ U 1 1 5A36BA3E
 P 4150 4900
 F 0 "SW1" H 4200 5000 50  0000 L CNN
 F 1 "Reset" H 4150 4840 50  0000 C CNN
-F 2 "Buttons_Switches_SMD:SW_SPST_EVPBF" H 4150 5100 50  0001 C CNN
+F 2 "Buttons_Switches_SMD:SW_SPST_B3S-1000" H 4150 5100 50  0001 C CNN
 F 3 "" H 4150 5100 50  0001 C CNN
+F 4 "Omron" H 4150 4900 60  0001 C CNN "Manufacturer"
+F 5 "B3S-1000" H 4150 4900 60  0001 C CNN "Manufacturer part number"
 	1    4150 4900
 	0    -1   -1   0   
 $EndComp
@@ -1368,6 +1394,9 @@ F 0 "C17" H 7475 2450 50  0000 L CNN
 F 1 "33pF" H 7475 2250 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0805_HandSoldering" H 7488 2200 50  0001 C CNN
 F 3 "" H 7450 2350 50  0001 C CNN
+F 4 "Kemet" H 7450 2350 60  0001 C CNN "Manufacturer"
+F 5 "C0805C330K4HACAUTO" H 7450 2350 60  0001 C CNN "Manufacturer part number"
+F 6 "0805" H 7450 2350 60  0001 C CNN "Package"
 	1    7450 2350
 	1    0    0    -1  
 $EndComp
@@ -1379,6 +1408,9 @@ F 0 "C18" H 7725 2450 50  0000 L CNN
 F 1 "10pF" H 7725 2250 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0805_HandSoldering" H 7738 2200 50  0001 C CNN
 F 3 "" H 7700 2350 50  0001 C CNN
+F 4 "Kemet" H 7700 2350 60  0001 C CNN "Manufacturer"
+F 5 "C0805C100K4HACAUTO" H 7700 2350 60  0001 C CNN "Manufacturer part number"
+F 6 "0805" H 7700 2350 60  0001 C CNN "Package"
 	1    7700 2350
 	1    0    0    -1  
 $EndComp
@@ -1390,6 +1422,9 @@ F 0 "D1" H 8050 2450 50  0000 C CNN
 F 1 "MMSZ5231BT1G" H 8050 2250 50  0000 C CNN
 F 2 "Diodes_SMD:D_SOD-123" H 8050 2350 50  0001 C CNN
 F 3 "" H 8050 2350 50  0001 C CNN
+F 4 "ON Semiconductor" H 8050 2350 60  0001 C CNN "Manufacturer"
+F 5 "MMSZ5231BT1G" H 8050 2350 60  0001 C CNN "Manufacturer part number"
+F 6 "SOD-123-2" H 8050 2350 60  0001 C CNN "Package"
 	1    8050 2350
 	0    1    1    0   
 $EndComp
@@ -1902,4 +1937,74 @@ Text Label 8750 4950 1    60   ~ 0
 GPS
 Text Label 8750 5050 3    60   ~ 0
 GSM
+$Comp
+L R R9
+U 1 1 5A52A64D
+P 6950 1250
+F 0 "R9" V 7030 1250 50  0000 C CNN
+F 1 "1k" V 6950 1250 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" H 6950 1250 60  0001 C CNN
+F 3 "" H 6950 1250 60  0000 C CNN
+F 4 "Panasonic" V 6950 1250 60  0001 C CNN "Manufacturer"
+F 5 "ERJ-6GEYJ102V" V 6950 1250 60  0001 C CNN "Manufacturer part number"
+F 6 "0805" V 6950 1250 60  0001 C CNN "Package"
+	1    6950 1250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L R R10
+U 1 1 5A52A8F5
+P 6950 1550
+F 0 "R10" V 7030 1550 50  0000 C CNN
+F 1 "1k" V 6950 1550 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" H 6950 1550 60  0001 C CNN
+F 3 "" H 6950 1550 60  0000 C CNN
+F 4 "Panasonic" V 6950 1550 60  0001 C CNN "Manufacturer"
+F 5 "ERJ-6GEYJ102V" V 6950 1550 60  0001 C CNN "Manufacturer part number"
+F 6 "0805" V 6950 1550 60  0001 C CNN "Package"
+	1    6950 1550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L R R13
+U 1 1 5A52AEBC
+P 8650 2650
+F 0 "R13" V 8730 2650 50  0000 C CNN
+F 1 "10k" V 8650 2650 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" H 8650 2650 60  0001 C CNN
+F 3 "" H 8650 2650 60  0000 C CNN
+F 4 "Panasonic" V 8650 2650 60  0001 C CNN "Manufacturer"
+F 5 "ERJ-6GEYJ103V" V 8650 2650 60  0001 C CNN "Manufacturer part number"
+F 6 "0805" V 8650 2650 60  0001 C CNN "Package"
+	1    8650 2650
+	-1   0    0    1   
+$EndComp
+$Comp
+L R R4
+U 1 1 5A52B8B7
+P 3750 4150
+F 0 "R4" V 3830 4150 50  0000 C CNN
+F 1 "1k" V 3750 4150 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" H 3750 4150 60  0001 C CNN
+F 3 "" H 3750 4150 60  0000 C CNN
+F 4 "Panasonic" V 3750 4150 60  0001 C CNN "Manufacturer"
+F 5 "ERJ-6GEYJ102V" V 3750 4150 60  0001 C CNN "Manufacturer part number"
+F 6 "0805" V 3750 4150 60  0001 C CNN "Package"
+	1    3750 4150
+	-1   0    0    1   
+$EndComp
+$Comp
+L R R5
+U 1 1 5A52BACD
+P 3950 4150
+F 0 "R5" V 4030 4150 50  0000 C CNN
+F 1 "1k" V 3950 4150 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" H 3950 4150 60  0001 C CNN
+F 3 "" H 3950 4150 60  0000 C CNN
+F 4 "Panasonic" V 3950 4150 60  0001 C CNN "Manufacturer"
+F 5 "ERJ-6GEYJ102V" V 3950 4150 60  0001 C CNN "Manufacturer part number"
+F 6 "0805" V 3950 4150 60  0001 C CNN "Package"
+	1    3950 4150
+	-1   0    0    1   
+$EndComp
 $EndSCHEMATC

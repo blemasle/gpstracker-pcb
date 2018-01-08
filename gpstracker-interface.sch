@@ -208,17 +208,6 @@ F 6 "0805" H 1600 1550 60  0001 C CNN "Package"
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R19
-U 1 1 5A368449
-P 4450 2400
-F 0 "R19" V 4530 2400 50  0000 C CNN
-F 1 "1k" V 4450 2400 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805_HandSoldering" H 4450 2400 60  0001 C CNN
-F 3 "" H 4450 2400 60  0000 C CNN
-	1    4450 2400
-	-1   0    0    1   
-$EndComp
-$Comp
 L R R18
 U 1 1 5A3684B8
 P 4150 2400
@@ -226,6 +215,9 @@ F 0 "R18" V 4230 2400 50  0000 C CNN
 F 1 "1k" V 4150 2400 50  0000 C CNN
 F 2 "Resistors_SMD:R_0805_HandSoldering" H 4150 2400 60  0001 C CNN
 F 3 "" H 4150 2400 60  0000 C CNN
+F 4 "Panasonic" V 4150 2400 60  0001 C CNN "Manufacturer"
+F 5 "ERJ-6GEYJ102V" V 4150 2400 60  0001 C CNN "Manufacturer part number"
+F 6 "0805" V 4150 2400 60  0001 C CNN "Package"
 	1    4150 2400
 	-1   0    0    1   
 $EndComp
@@ -244,17 +236,6 @@ F 6 "0805" H 1000 2300 60  0001 C CNN "Package"
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R17
-U 1 1 5A36872C
-P 1850 2000
-F 0 "R17" V 1950 2000 50  0000 C CNN
-F 1 "27R" V 1850 2000 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805_HandSoldering" H 1850 2000 60  0001 C CNN
-F 3 "" H 1850 2000 60  0000 C CNN
-	1    1850 2000
-	0    -1   -1   0   
-$EndComp
-$Comp
 L R R16
 U 1 1 5A36875E
 P 1850 2100
@@ -262,6 +243,9 @@ F 0 "R16" V 1930 2100 50  0000 C CNN
 F 1 "27R" V 1850 2100 50  0000 C CNN
 F 2 "Resistors_SMD:R_0805_HandSoldering" H 1850 2100 60  0001 C CNN
 F 3 "" H 1850 2100 60  0000 C CNN
+F 4 "Panasonic" V 1850 2100 60  0001 C CNN "Manufacturer"
+F 5 "ERJ-6GEYJ270V" V 1850 2100 60  0001 C CNN "Manufacturer part number"
+F 6 "0805" V 1850 2100 60  0001 C CNN "Package"
 	1    1850 2100
 	0    1    1    0   
 $EndComp
@@ -273,6 +257,9 @@ F 0 "LED6" H 4150 2100 50  0000 C CNN
 F 1 "Rx" H 4150 1900 50  0000 C CNN
 F 2 "LEDs:LED_0805_HandSoldering" H 4150 2000 60  0001 C CNN
 F 3 "" H 4150 2000 60  0000 C CNN
+F 4 "Kingbright" H 4150 2000 60  0001 C CNN "Manufacturer"
+F 5 "APT2012SYCK" H 4150 2000 60  0001 C CNN "Manufacturer part number"
+F 6 "0805" H 4150 2000 60  0001 C CNN "Package"
 	1    4150 2000
 	0    1    1    0   
 $EndComp
@@ -284,6 +271,9 @@ F 0 "LED7" H 4450 2100 50  0000 C CNN
 F 1 "Tx" H 4450 1900 50  0000 C CNN
 F 2 "LEDs:LED_0805_HandSoldering" H 4450 2000 60  0001 C CNN
 F 3 "" H 4450 2000 60  0000 C CNN
+F 4 "Kingbright" H 4450 2000 60  0001 C CNN "Manufacturer"
+F 5 "APT2012EC" H 4450 2000 60  0001 C CNN "Manufacturer part number"
+F 6 "0805" H 4450 2000 60  0001 C CNN "Package"
 	1    4450 2000
 	0    1    1    0   
 $EndComp
@@ -336,11 +326,11 @@ L USB_B_Micro J1
 U 1 1 5A36E61B
 P 1100 1000
 F 0 "J1" H 900 1450 50  0000 L CNN
-F 1 "Molex 47346-0001" H 900 1350 50  0001 L CNN
-F 2 "Connectors_USB:USB_Micro-B_Vertical_Molex-105133-0001" H 1250 950 50  0001 C CNN
+F 1 "Molex 105133-0002" H 900 1350 50  0001 L CNN
+F 2 "custom-conn:USB_Micro-B_Vertical_Molex-105133-0001_HandSoldering" H 1250 950 50  0001 C CNN
 F 3 "" H 1250 950 50  0001 C CNN
 F 4 "Molex" H 1100 1000 60  0001 C CNN "Manufacturer"
-F 5 "47346-0001" H 1100 1000 60  0001 C CNN "Manufacturer part number"
+F 5 "105133-0002" H 1100 1000 60  0001 C CNN "Manufacturer part number"
 	1    1100 1000
 	0    1    1    0   
 $EndComp
@@ -436,7 +426,7 @@ Wire Wire Line
 Wire Wire Line
 	2050 1700 2100 1700
 Wire Wire Line
-	2050 1700 2050 1650
+	2050 1650 2050 2300
 Wire Wire Line
 	4150 1850 4150 1800
 Wire Wire Line
@@ -526,4 +516,34 @@ Wire Wire Line
 Connection ~ 1300 1750
 Text Notes 2300 900  0    120  ~ 24
 USB Interface
+$Comp
+L R R19
+U 1 1 5A52C333
+P 4450 2400
+F 0 "R19" V 4530 2400 50  0000 C CNN
+F 1 "1k" V 4450 2400 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" H 4450 2400 60  0001 C CNN
+F 3 "" H 4450 2400 60  0000 C CNN
+F 4 "Panasonic" V 4450 2400 60  0001 C CNN "Manufacturer"
+F 5 "ERJ-6GEYJ102V" V 4450 2400 60  0001 C CNN "Manufacturer part number"
+F 6 "0805" V 4450 2400 60  0001 C CNN "Package"
+	1    4450 2400
+	-1   0    0    1   
+$EndComp
+$Comp
+L R R17
+U 1 1 5A534FBA
+P 1850 2000
+F 0 "R17" V 1950 2000 50  0000 C CNN
+F 1 "27R" V 1850 2000 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" H 1850 2000 60  0001 C CNN
+F 3 "" H 1850 2000 60  0000 C CNN
+F 4 "Panasonic" V 1850 2000 60  0001 C CNN "Manufacturer"
+F 5 "ERJ-6GEYJ270V" V 1850 2000 60  0001 C CNN "Manufacturer part number"
+F 6 "0805" V 1850 2000 60  0001 C CNN "Package"
+	1    1850 2000
+	0    -1   -1   0   
+$EndComp
+Connection ~ 2050 2300
+Connection ~ 2050 1700
 $EndSCHEMATC
