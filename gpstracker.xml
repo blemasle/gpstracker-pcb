@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <export version="D">
   <design>
-    <source>D:\working-copies\Engineering\gpstacker\gpstracker.sch</source>
-    <date>01/08/18 01:52:43</date>
+    <source>D:/working-copies/Engineering/gpstacker/gpstracker.sch</source>
+    <date>01/08/18 22:28:33</date>
     <tool>Eeschema 4.0.7</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -49,7 +49,7 @@
       <footprint>Capacitors_SMD:C_0805_HandSoldering</footprint>
       <fields>
         <field name="Manufacturer">Kemet</field>
-        <field name="Manufacturer part number">C0805X475C4RACTU</field>
+        <field name="Manufacturer part number">C0805X475J4RACAUTO</field>
         <field name="Package">0805</field>
       </fields>
       <libsource lib="Device" part="C"/>
@@ -61,7 +61,7 @@
       <footprint>Capacitors_SMD:C_0805_HandSoldering</footprint>
       <fields>
         <field name="Manufacturer">Kemet</field>
-        <field name="Manufacturer part number">C0805X475C4RACTU</field>
+        <field name="Manufacturer part number">C0805X475J4RACAUTO</field>
         <field name="Package">0805</field>
       </fields>
       <libsource lib="Device" part="C"/>
@@ -409,7 +409,7 @@
       <footprint>Capacitors_SMD:C_0805_HandSoldering</footprint>
       <fields>
         <field name="Manufacturer">Kemet</field>
-        <field name="Manufacturer part number">C0805X475C4RACTU</field>
+        <field name="Manufacturer part number">C0805X475J4RACAUTO</field>
         <field name="Package">0805</field>
       </fields>
       <libsource lib="Device" part="C"/>
@@ -763,10 +763,10 @@
     </comp>
     <comp ref="J1">
       <value>Molex 105133-0002</value>
-      <footprint>custom-conn:USB_Micro-B_Vertical_Molex-105133-0001_HandSoldering</footprint>
+      <footprint>Connectors_USB:USB_Micro-B_Wuerth-614105150721_Vertical_CircularHoles</footprint>
       <fields>
-        <field name="Manufacturer">Molex</field>
-        <field name="Manufacturer part number">105133-0002</field>
+        <field name="Manufacturer">Wuerth</field>
+        <field name="Manufacturer part number">614105150721</field>
       </fields>
       <libsource lib="Connector_Specialized" part="USB_B_Micro"/>
       <sheetpath names="/Interface/" tstamps="/5A36795F/"/>
@@ -777,7 +777,7 @@
       <footprint>Capacitors_SMD:C_0805_HandSoldering</footprint>
       <fields>
         <field name="Manufacturer">Kemet</field>
-        <field name="Manufacturer part number">C0805X475C4RACTU</field>
+        <field name="Manufacturer part number">C0805X475J4RACAUTO</field>
         <field name="Package">0805</field>
       </fields>
       <libsource lib="Device" part="C"/>
@@ -1320,26 +1320,26 @@
     <library logical="freetronics_schematic">
       <uri>D:\working-copies\Engineering\gpstacker\library\freetronics\freetronics_schematic.lib</uri>
     </library>
+    <library logical="gpstracker-cache">
+      <uri>D:\working-copies\Engineering\gpstacker\gpstracker-cache.lib</uri>
+    </library>
+    <library logical="Timer_RTC">
+      <uri>C:\Apps\Engineering\KiCad\share\kicad\library\Timer_RTC.lib</uri>
+    </library>
+    <library logical="Switch">
+      <uri>C:\Apps\Engineering\KiCad\share\kicad\library\Switch.lib</uri>
+    </library>
     <library logical="Connector_Specialized">
       <uri>C:\Apps\Engineering\KiCad\share\kicad\library\Connector_Specialized.lib</uri>
+    </library>
+    <library logical="Memory_EEPROM">
+      <uri>C:\Apps\Engineering\KiCad\share\kicad\library\Memory_EEPROM.lib</uri>
     </library>
     <library logical="Device">
       <uri>C:\Apps\Engineering\KiCad\share\kicad\library\Device.lib</uri>
     </library>
     <library logical="Interface_USB">
       <uri>C:\Apps\Engineering\KiCad\share\kicad\library\Interface_USB.lib</uri>
-    </library>
-    <library logical="Memory_EEPROM">
-      <uri>C:\Apps\Engineering\KiCad\share\kicad\library\Memory_EEPROM.lib</uri>
-    </library>
-    <library logical="Switch">
-      <uri>C:\Apps\Engineering\KiCad\share\kicad\library\Switch.lib</uri>
-    </library>
-    <library logical="Timer_RTC">
-      <uri>C:\Apps\Engineering\KiCad\share\kicad\library\Timer_RTC.lib</uri>
-    </library>
-    <library logical="gpstracker-cache">
-      <uri>D:\working-copies\Engineering\gpstacker\gpstracker-cache.lib</uri>
     </library>
   </libraries>
   <nets>
