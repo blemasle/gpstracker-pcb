@@ -327,10 +327,10 @@ U 1 1 5A36E61B
 P 1100 1000
 F 0 "J1" H 900 1450 50  0000 L CNN
 F 1 "Molex 105133-0002" H 900 1350 50  0001 L CNN
-F 2 "custom-conn:USB_Micro-B_Vertical_Molex-105133-0001_HandSoldering" H 1250 950 50  0001 C CNN
+F 2 "Connectors_USB:USB_Micro-B_Wuerth-614105150721_Vertical_CircularHoles" H 1250 950 50  0001 C CNN
 F 3 "" H 1250 950 50  0001 C CNN
-F 4 "Molex" H 1100 1000 60  0001 C CNN "Manufacturer"
-F 5 "105133-0002" H 1100 1000 60  0001 C CNN "Manufacturer part number"
+F 4 "Molex" H 1100 1000 60  0001 C CNN "Wuerth"
+F 5 "614105150721" H 1100 1000 60  0001 C CNN "Manufacturer part number"
 	1    1100 1000
 	0    1    1    0   
 $EndComp
