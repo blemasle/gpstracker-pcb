@@ -176,7 +176,7 @@ F 1 "4.7uF" H 675 1000 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0805_HandSoldering" H 688 950 50  0001 C CNN
 F 3 "" H 650 1100 50  0001 C CNN
 F 4 "Kemet" H 650 1100 60  0001 C CNN "Manufacturer"
-F 5 "C0805X475C4RACTU" H 650 1100 60  0001 C CNN "Manufacturer part number"
+F 5 "C0805X475J4RACAUTO" H 650 1100 60  0001 C CNN "Manufacturer part number"
 F 6 "0805" H 650 1100 60  0001 C CNN "Package"
 	1    650  1100
 	-1   0    0    1   
@@ -190,7 +190,7 @@ F 1 "4.7uF" H 2425 1600 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0805_HandSoldering" H 2438 1550 50  0001 C CNN
 F 3 "" H 2400 1700 50  0001 C CNN
 F 4 "Kemet" H 2400 1700 60  0001 C CNN "Manufacturer"
-F 5 "C0805X475C4RACTU" H 2400 1700 60  0001 C CNN "Manufacturer part number"
+F 5 "C0805X475J4RACAUTO" H 2400 1700 60  0001 C CNN "Manufacturer part number"
 F 6 "0805" H 2400 1700 60  0001 C CNN "Package"
 	1    2400 1700
 	1    0    0    -1  
@@ -1128,7 +1128,7 @@ F 1 "4.7uF" H 10725 1350 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0805_HandSoldering" H 10738 1300 50  0001 C CNN
 F 3 "" H 10700 1450 50  0001 C CNN
 F 4 "Kemet" H 10700 1450 60  0001 C CNN "Manufacturer"
-F 5 "C0805X475C4RACTU" H 10700 1450 60  0001 C CNN "Manufacturer part number"
+F 5 "C0805X475J4RACAUTO" H 10700 1450 60  0001 C CNN "Manufacturer part number"
 F 6 "0805" H 10700 1450 60  0001 C CNN "Package"
 	1    10700 1450
 	1    0    0    -1  
