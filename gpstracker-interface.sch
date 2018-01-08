@@ -187,8 +187,8 @@ F 0 "C13" H 1375 2400 50  0000 L CNN
 F 1 "47pF" H 1375 2200 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0805_HandSoldering" H 1388 2150 50  0001 C CNN
 F 3 "" H 1350 2300 50  0001 C CNN
-F 4 "Kemet" H 1350 2300 60  0001 C CNN "Manufacturer"
-F 5 "C0805X475C4RACTU" H 1350 2300 60  0001 C CNN "Manufacturer part number"
+F 4 "Vishay" H 1350 2300 60  0001 C CNN "Manufacturer"
+F 5 "VJ0805A470GXJPW1BC" H 1350 2300 60  0001 C CNN "Manufacturer part number"
 F 6 "0805" H 1350 2300 60  0001 C CNN "Package"
 	1    1350 2300
 	1    0    0    -1  
@@ -229,8 +229,8 @@ F 0 "C11" H 1025 2400 50  0000 L CNN
 F 1 "47pF" H 1025 2200 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0805_HandSoldering" H 1038 2150 50  0001 C CNN
 F 3 "" H 1000 2300 50  0001 C CNN
-F 4 "Kemet" H 1000 2300 60  0001 C CNN "Manufacturer"
-F 5 "C0805X475C4RACTU" H 1000 2300 60  0001 C CNN "Manufacturer part number"
+F 4 "Vishay" H 1000 2300 60  0001 C CNN "Manufacturer"
+F 5 "VJ0805A470GXJPW1BC" H 1000 2300 60  0001 C CNN "Manufacturer part number"
 F 6 "0805" H 1000 2300 60  0001 C CNN "Package"
 	1    1000 2300
 	1    0    0    -1  
@@ -499,7 +499,7 @@ F 1 "4.7uF" H 1325 1450 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0805_HandSoldering" H 1338 1400 50  0001 C CNN
 F 3 "" H 1300 1550 50  0001 C CNN
 F 4 "Kemet" H 1300 1550 60  0001 C CNN "Manufacturer"
-F 5 "C0805X475J4RACAUTO" H 1300 1550 60  0001 C CNN "Manufacturer part number"
+F 5 "C0805C104M3RACTU" H 1300 1550 60  0001 C CNN "Manufacturer part number"
 F 6 "0805" H 1300 1550 60  0001 C CNN "Package"
 	1    1300 1550
 	1    0    0    -1  

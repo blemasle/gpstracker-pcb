@@ -698,6 +698,7 @@ F 2 "LEDs:LED_0805_HandSoldering" H 6400 1550 60  0001 C CNN
 F 3 "" H 6400 1550 60  0000 C CNN
 F 4 "Kingbright" H 6400 1550 60  0001 C CNN "Manufacturer"
 F 5 "APT2012EC" H 6400 1550 60  0001 C CNN "Manufacturer part number"
+F 6 "0805" H 6400 1550 60  0001 C CNN "Package"
 	1    6400 1550
 	1    0    0    -1  
 $EndComp
@@ -1224,7 +1225,7 @@ F 1 "51k" V 4750 2950 50  0000 C CNN
 F 2 "Resistors_SMD:R_0805_HandSoldering" H 4750 2950 60  0001 C CNN
 F 3 "" H 4750 2950 60  0000 C CNN
 F 4 "Panasonic" V 4750 2950 60  0001 C CNN "Manufacturer"
-F 5 "ERJ-6GEYJ513V" V 4750 2950 60  0001 C CNN "Manufacturer part number"
+F 5 "ERJ-6ENF5102V" V 4750 2950 60  0001 C CNN "Manufacturer part number"
 F 6 "0805" V 4750 2950 60  0001 C CNN "Package"
 	1    4750 2950
 	-1   0    0    1   
@@ -1238,7 +1239,7 @@ F 1 "51k" V 4950 2950 50  0000 C CNN
 F 2 "Resistors_SMD:R_0805_HandSoldering" H 4950 2950 60  0001 C CNN
 F 3 "" H 4950 2950 60  0000 C CNN
 F 4 "Panasonic" V 4950 2950 60  0001 C CNN "Manufacturer"
-F 5 "ERJ-6GEYJ513V" V 4950 2950 60  0001 C CNN "Manufacturer part number"
+F 5 "ERJ-6ENF5102V" V 4950 2950 60  0001 C CNN "Manufacturer part number"
 F 6 "0805" V 4950 2950 60  0001 C CNN "Package"
 	1    4950 2950
 	-1   0    0    1   
@@ -1394,8 +1395,8 @@ F 0 "C17" H 7475 2450 50  0000 L CNN
 F 1 "33pF" H 7475 2250 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0805_HandSoldering" H 7488 2200 50  0001 C CNN
 F 3 "" H 7450 2350 50  0001 C CNN
-F 4 "Kemet" H 7450 2350 60  0001 C CNN "Manufacturer"
-F 5 "C0805C330K4HACAUTO" H 7450 2350 60  0001 C CNN "Manufacturer part number"
+F 4 "Vishay" H 7450 2350 60  0001 C CNN "Manufacturer"
+F 5 "VJ0805A330GXJCW1BC" H 7450 2350 60  0001 C CNN "Manufacturer part number"
 F 6 "0805" H 7450 2350 60  0001 C CNN "Package"
 	1    7450 2350
 	1    0    0    -1  
@@ -1408,8 +1409,8 @@ F 0 "C18" H 7725 2450 50  0000 L CNN
 F 1 "10pF" H 7725 2250 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0805_HandSoldering" H 7738 2200 50  0001 C CNN
 F 3 "" H 7700 2350 50  0001 C CNN
-F 4 "Kemet" H 7700 2350 60  0001 C CNN "Manufacturer"
-F 5 "C0805C100K4HACAUTO" H 7700 2350 60  0001 C CNN "Manufacturer part number"
+F 4 "Vishay" H 7700 2350 60  0001 C CNN "Manufacturer"
+F 5 "VJ0805A100GXJCW1BC" H 7700 2350 60  0001 C CNN "Manufacturer part number"
 F 6 "0805" H 7700 2350 60  0001 C CNN "Package"
 	1    7700 2350
 	1    0    0    -1  
@@ -1419,11 +1420,11 @@ L D_Schottky D1
 U 1 1 5A37E277
 P 8050 2350
 F 0 "D1" H 8050 2450 50  0000 C CNN
-F 1 "MMSZ5231BT1G" H 8050 2250 50  0000 C CNN
+F 1 "MMSZ5231B-7-F" H 8050 2250 50  0000 C CNN
 F 2 "Diodes_SMD:D_SOD-123" H 8050 2350 50  0001 C CNN
 F 3 "" H 8050 2350 50  0001 C CNN
-F 4 "ON Semiconductor" H 8050 2350 60  0001 C CNN "Manufacturer"
-F 5 "MMSZ5231BT1G" H 8050 2350 60  0001 C CNN "Manufacturer part number"
+F 4 "Diodes Incorporated" H 8050 2350 60  0001 C CNN "Manufacturer"
+F 5 "MMSZ5231B-7-F" H 8050 2350 60  0001 C CNN "Manufacturer part number"
 F 6 "SOD-123-2" H 8050 2350 60  0001 C CNN "Package"
 	1    8050 2350
 	0    1    1    0   

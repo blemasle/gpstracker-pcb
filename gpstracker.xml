@@ -2,7 +2,7 @@
 <export version="D">
   <design>
     <source>D:/working-copies/Engineering/gpstacker/gpstracker.sch</source>
-    <date>01/08/18 22:28:33</date>
+    <date>01/08/18 23:24:11</date>
     <tool>Eeschema 4.0.7</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -538,7 +538,7 @@
       <footprint>Capacitors_SMD:C_0805_HandSoldering</footprint>
       <fields>
         <field name="Manufacturer">Kemet</field>
-        <field name="Manufacturer part number">C0805C330K4HACAUTO</field>
+        <field name="Manufacturer part number">C0805C330J4HACAUTO</field>
         <field name="Package">0805</field>
       </fields>
       <libsource lib="Device" part="C"/>
@@ -550,7 +550,7 @@
       <footprint>Capacitors_SMD:C_0805_HandSoldering</footprint>
       <fields>
         <field name="Manufacturer">Kemet</field>
-        <field name="Manufacturer part number">C0805C100K4HACAUTO</field>
+        <field name="Manufacturer part number">C0805C100J4HACAUTO</field>
         <field name="Package">0805</field>
       </fields>
       <libsource lib="Device" part="C"/>
@@ -682,7 +682,7 @@
       <footprint>Capacitors_SMD:C_0805_HandSoldering</footprint>
       <fields>
         <field name="Manufacturer">Kemet</field>
-        <field name="Manufacturer part number">C0805X475C4RACTU</field>
+        <field name="Manufacturer part number">C0805C470J4HACAUTO</field>
         <field name="Package">0805</field>
       </fields>
       <libsource lib="Device" part="C"/>
@@ -718,7 +718,7 @@
       <footprint>Capacitors_SMD:C_0805_HandSoldering</footprint>
       <fields>
         <field name="Manufacturer">Kemet</field>
-        <field name="Manufacturer part number">C0805X475C4RACTU</field>
+        <field name="Manufacturer part number">C0805C470J4HACAUTO</field>
         <field name="Package">0805</field>
       </fields>
       <libsource lib="Device" part="C"/>
