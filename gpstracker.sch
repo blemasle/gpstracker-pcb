@@ -854,7 +854,7 @@ U 1 1 5A37CD58
 P 6400 7450
 F 0 "BT2" H 6500 7550 50  0000 L CNN
 F 1 "Backup battery" H 6500 7450 50  0000 L CNN
-F 2 "Battery_Holders:Keystone_1058_1x2032-CoinCell" V 6400 7510 50  0001 C CNN
+F 2 "custom-conn:Keystone_1058_1x2032-CoinCell" V 6400 7510 50  0001 C CNN
 F 3 "" V 6400 7510 50  0001 C CNN
 F 4 "Keystone" H 6400 7450 60  0001 C CNN "Manufacturer"
 F 5 "1058" H 6400 7450 60  0001 C CNN "Manufacturer part number"

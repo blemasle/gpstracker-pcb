@@ -2,11 +2,11 @@
 
   (general
     (links 319)
-    (no_connects 0)
+    (no_connects 1)
     (area 76.986002 51.656 194.286 129.599)
     (thickness 1.6)
     (drawings 16)
-    (tracks 609)
+    (tracks 606)
     (zones 0)
     (modules 192)
     (nets 110)
@@ -32,7 +32,7 @@
     (45 Margin user)
     (46 B.CrtYd user)
     (47 F.CrtYd user)
-    (48 B.Fab user)
+    (48 B.Fab user hide)
     (49 F.Fab user hide)
   )
 
@@ -5291,9 +5291,6 @@
   (segment (start 151.892 120.476) (end 151.972 120.396) (width 0.25) (layer F.Cu) (net 64) (tstamp 5A52B25C))
   (segment (start 151.972 118.364) (end 151.972 116.332) (width 0.25) (layer F.Cu) (net 64))
   (segment (start 151.972 120.396) (end 151.972 118.364) (width 0.25) (layer F.Cu) (net 64))
-  (segment (start 124.587 81.868) (end 127.842 81.868) (width 0.25) (layer B.Cu) (net 66))
-  (segment (start 128.551 82.577) (end 128.551 83.954) (width 0.25) (layer B.Cu) (net 66) (tstamp 5A5F432C))
-  (segment (start 127.842 81.868) (end 128.551 82.577) (width 0.25) (layer B.Cu) (net 66) (tstamp 5A5F432B))
   (segment (start 133.477 99.312602) (end 133.477 85.736004) (width 0.25) (layer B.Cu) (net 67))
   (segment (start 133.477 85.736004) (end 133.477 85.725) (width 0.25) (layer B.Cu) (net 67) (tstamp 5A5F40FE))
   (segment (start 133.477 85.725) (end 133.477 85.736004) (width 0.25) (layer B.Cu) (net 67) (tstamp 5A5F4105))
