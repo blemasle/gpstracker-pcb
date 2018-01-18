@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source D:/Users/Bertrand/Documents/Perso/kicad-gps-tracker/gpstracker.sch)
-    (date "1/17/2018 3:47:41 PM")
+    (date "1/18/2018 1:10:52 PM")
     (tool "Eeschema 4.0.7")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -97,7 +97,7 @@
       (tstamp 59A3AE00))
     (comp (ref J6)
       (value Micro_SD_Card)
-      (footprint 104031-0811:MOLEX_104031-0811)
+      (footprint Connectors_Card:Hirose_DM3AT-SF-PEJM5)
       (fields
         (field (name Manufacturer) Molex)
         (field (name "Manufacturer part number") 104031-0811))
@@ -1096,12 +1096,12 @@
       (uri D:\Users\Bertrand\Documents\Perso\kicad-gps-tracker\library\SIM808.lib))
     (library (logical freetronics_schematic)
       (uri D:\Users\Bertrand\Documents\Perso\kicad-gps-tracker\library\freetronics\freetronics_schematic.lib))
+    (library (logical Connector_Specialized)
+      (uri D:\KiCad\share\kicad\library\Connector_Specialized.lib))
     (library (logical Device)
       (uri D:\KiCad\share\kicad\library\Device.lib))
     (library (logical Interface_USB)
       (uri D:\KiCad\share\kicad\library\Interface_USB.lib))
-    (library (logical Connector_Specialized)
-      (uri D:\KiCad\share\kicad\library\Connector_Specialized.lib))
     (library (logical Memory_EEPROM)
       (uri D:\KiCad\share\kicad\library\Memory_EEPROM.lib))
     (library (logical Switch)
