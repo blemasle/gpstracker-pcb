@@ -356,9 +356,9 @@ $EndComp
 NoConn ~ 3050 3800
 NoConn ~ 3050 3900
 Text Label 3500 5400 2    60   ~ 0
-ARD_HRX
-Text Label 3500 5300 2    60   ~ 0
 ARD_HTX
+Text Label 3500 5300 2    60   ~ 0
+SIM_RST
 Text Label 3500 3300 2    60   ~ 0
 SIM808_P
 $Comp
@@ -974,7 +974,6 @@ $EndComp
 NoConn ~ 3050 4150
 NoConn ~ 3050 4250
 NoConn ~ 3050 4350
-NoConn ~ 3050 5500
 NoConn ~ 1150 4550
 NoConn ~ 1150 4650
 $Comp
@@ -1084,7 +1083,7 @@ NoConn ~ 8800 2550
 NoConn ~ 8800 2650
 NoConn ~ 8800 2750
 Text Label 8350 1550 0    60   ~ 0
-ARD_RST
+SIM_RST
 NoConn ~ 8800 1650
 Text Label 8350 1750 0    60   ~ 0
 SIM808_P
@@ -1551,13 +1550,6 @@ Wire Wire Line
 Wire Wire Line
 	5250 3350 4250 3350
 Wire Wire Line
-	6950 4150 7000 4150
-Wire Wire Line
-	7000 4150 7000 4350
-Wire Wire Line
-	7000 4350 5100 4350
-Connection ~ 5100 4350
-Wire Wire Line
 	3050 5000 3500 5000
 Wire Wire Line
 	3050 5100 3500 5100
@@ -2008,4 +2000,9 @@ F 6 "0805" V 3950 4150 60  0001 C CNN "Package"
 	1    3950 4150
 	-1   0    0    1   
 $EndComp
+Wire Wire Line
+	3050 5500 3500 5500
+Text Label 3500 5500 2    60   ~ 0
+ARD_HRX
+NoConn ~ 6950 4150
 $EndSCHEMATC
