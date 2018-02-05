@@ -261,7 +261,7 @@ F 4 "Kingbright" H 4150 2000 60  0001 C CNN "Manufacturer"
 F 5 "APT2012SYCK" H 4150 2000 60  0001 C CNN "Manufacturer part number"
 F 6 "0805" H 4150 2000 60  0001 C CNN "Package"
 	1    4150 2000
-	0    1    1    0   
+	0    -1   -1   0   
 $EndComp
 $Comp
 L LED_ALT LED7
@@ -275,7 +275,7 @@ F 4 "Kingbright" H 4450 2000 60  0001 C CNN "Manufacturer"
 F 5 "APT2012EC" H 4450 2000 60  0001 C CNN "Manufacturer part number"
 F 6 "0805" H 4450 2000 60  0001 C CNN "Package"
 	1    4450 2000
-	0    1    1    0   
+	0    -1   -1   0   
 $EndComp
 $Comp
 L +3.3V_FDTI #PWR049
