@@ -602,7 +602,6 @@ F 6 "0805" H 3850 6800 60  0001 C CNN "Package"
 	1    3850 6800
 	0    1    1    0   
 $EndComp
-NoConn ~ 4400 7300
 Text Label 3300 4550 2    60   ~ 0
 SCL
 Text Label 3300 4450 2    60   ~ 0
@@ -2005,4 +2004,19 @@ Wire Wire Line
 Text Label 3500 5500 2    60   ~ 0
 ARD_HRX
 NoConn ~ 6950 4150
+$Comp
+L GND #PWR?
+U 1 1 5A78E6A2
+P 4450 7350
+F 0 "#PWR?" H 4450 7100 50  0001 C CNN
+F 1 "GND" H 4450 7200 50  0000 C CNN
+F 2 "" H 4450 7350 50  0001 C CNN
+F 3 "" H 4450 7350 50  0001 C CNN
+	1    4450 7350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4450 7350 4450 7300
+Wire Wire Line
+	4450 7300 4400 7300
 $EndSCHEMATC
