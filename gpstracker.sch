@@ -369,8 +369,8 @@ F 0 "J6" H 5500 4150 50  0000 C CNN
 F 1 "Micro_SD_Card" H 6800 4150 50  0000 R CNN
 F 2 "Connectors_Card:Hirose_DM3AT-SF-PEJM5" H 7300 3850 50  0001 C CNN
 F 3 "" H 6150 3550 50  0001 C CNN
-F 4 "Molex" H 6150 3550 60  0001 C CNN "Manufacturer"
-F 5 "104031-0811" H 6150 3550 60  0001 C CNN "Manufacturer part number"
+F 4 "Hirose" H 6150 3550 60  0001 C CNN "Manufacturer"
+F 5 "DM3AT-SF-PEJM5" H 6150 3550 60  0001 C CNN "Manufacturer part number"
 	1    6150 3550
 	1    0    0    -1  
 $EndComp
