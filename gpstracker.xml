@@ -1,0 +1,1859 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>D:/working-copies/Engineering/gpstacker/gpstracker.sch</source>
+    <date>01/08/18 23:24:11</date>
+    <tool>Eeschema 4.0.7</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>gpstracker.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="2" name="/Interface/" tstamps="/5A36795F/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>gpstracker-interface.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="U2">
+      <value>ATMEGA328P-AU</value>
+      <footprint>Housings_QFP:TQFP-32_7x7mm_Pitch0.8mm</footprint>
+      <fields>
+        <field name="Manufacturer">Atmel</field>
+        <field name="Manufacturer part number">ATMEGA328P-AU</field>
+        <field name="Package">TQFP-32</field>
+      </fields>
+      <libsource lib="gpstracker-cache" part="ATMEGA328P-AU"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59A2B62B</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>4.7uF</value>
+      <footprint>Capacitors_SMD:C_0805_HandSoldering</footprint>
+      <fields>
+        <field name="Manufacturer">Kemet</field>
+        <field name="Manufacturer part number">C0805X475J4RACAUTO</field>
+        <field name="Package">0805</field>
+      </fields>
+      <libsource lib="Device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59A2CCEB</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>4.7uF</value>
+      <footprint>Capacitors_SMD:C_0805_HandSoldering</footprint>
+      <fields>
+        <field name="Manufacturer">Kemet</field>
+        <field name="Manufacturer part number">C0805X475J4RACAUTO</field>
+        <field name="Package">0805</field>
+      </fields>
+      <libsource lib="Device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59A2CDFC</tstamp>
+    </comp>
+    <comp ref="C5">
+      <value>0.1uF</value>
+      <footprint>Capacitors_SMD:C_0805_HandSoldering</footprint>
+      <fields>
+        <field name="Manufacturer">Kemet</field>
+        <field name="Manufacturer part number">C0805C104M3RACTU</field>
+        <field name="Package">0805</field>
+      </fields>
+      <libsource lib="Device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59A3625C</tstamp>
+    </comp>
+    <comp ref="U1">
+      <value>MCP73832-5-OT</value>
+      <footprint>TO_SOT_Packages_SMD:SOT-23-5_HandSoldering</footprint>
+      <fields>
+        <field name="Manufacturer">Microchip</field>
+        <field name="Manufacturer part number">MCP73832T-5ACI/OT</field>
+        <field name="Package">SOT-23</field>
+      </fields>
+      <libsource lib="gpstracker-cache" part="MCP73832-5-OT-RESCUE-gpstracker"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59A36575</tstamp>
+    </comp>
+    <comp ref="J3">
+      <value>47553-0001</value>
+      <footprint>acronet:47553-0001</footprint>
+      <fields>
+        <field name="Manufacturer">Molex</field>
+        <field name="Manufacturer part number">47553-0001</field>
+      </fields>
+      <libsource lib="Connector_Specialized" part="SIM_Card"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59A3994A</tstamp>
+    </comp>
+    <comp ref="TV1">
+      <value>SMF05C</value>
+      <footprint>TO_SOT_Packages_SMD:SOT-363_SC-70-6_Handsoldering</footprint>
+      <fields>
+        <field name="Manufacturer">ON Semiconductor</field>
+        <field name="Manufacturer part number">SMF05C</field>
+        <field name="Package">SOT-363</field>
+      </fields>
+      <libsource lib="freetronics_schematic" part="SMF05C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59A3AE00</tstamp>
+    </comp>
+    <comp ref="J6">
+      <value>Micro_SD_Card</value>
+      <footprint>104031-0811:MOLEX_104031-0811</footprint>
+      <fields>
+        <field name="Manufacturer">Molex</field>
+        <field name="Manufacturer part number">104031-0811</field>
+      </fields>
+      <libsource lib="Connector_Specialized" part="Micro_SD_Card"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A2F1BF7</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>0.1uF</value>
+      <footprint>Capacitors_SMD:C_0805_HandSoldering</footprint>
+      <fields>
+        <field name="Manufacturer">Kemet</field>
+        <field name="Manufacturer part number">C0805C104M3RACTU</field>
+      </fields>
+      <libsource lib="Device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A2FC40B</tstamp>
+    </comp>
+    <comp ref="ICSP1">
+      <value>CONN_02X03</value>
+      <footprint>custom-conn:VASCH3x2</footprint>
+      <fields>
+        <field name="Manufacturer">FCI</field>
+        <field name="Manufacturer part number">75869-131LF</field>
+      </fields>
+      <libsource lib="gpstracker-cache" part="CONN_02X03"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A2FC760</tstamp>
+    </comp>
+    <comp ref="U4">
+      <value>MCP1700T-3302E/TT</value>
+      <footprint>TO_SOT_Packages_SMD:SOT-23_Handsoldering</footprint>
+      <fields>
+        <field name="Manufacturer">Microchip</field>
+        <field name="Manufacturer part number">MCP1700T-3302E/TT</field>
+        <field name="Package">SOT-23-3</field>
+      </fields>
+      <libsource lib="gpstracker-cache" part="MCP1700T-3002E/TT"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A31E91B</tstamp>
+    </comp>
+    <comp ref="C8">
+      <value>1uF</value>
+      <footprint>Capacitors_SMD:C_0805_HandSoldering</footprint>
+      <fields>
+        <field name="Manufacturer">Kemet</field>
+        <field name="Manufacturer part number">C0805C105K4RACTU</field>
+        <field name="Package">0805</field>
+      </fields>
+      <libsource lib="Device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A323F60</tstamp>
+    </comp>
+    <comp ref="C6">
+      <value>1uF</value>
+      <footprint>Capacitors_SMD:C_0805_HandSoldering</footprint>
+      <fields>
+        <field name="Manufacturer">Kemet</field>
+        <field name="Manufacturer part number">C0805C105K4RACTU</field>
+        <field name="Package">0805</field>
+      </fields>
+      <libsource lib="Device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A324C37</tstamp>
+    </comp>
+    <comp ref="C4">
+      <value>0.1uF</value>
+      <footprint>Capacitors_SMD:C_0805_HandSoldering</footprint>
+      <fields>
+        <field name="Manufacturer">Kemet</field>
+        <field name="Manufacturer part number">C0805C104M3RACTU</field>
+        <field name="Package">0805</field>
+      </fields>
+      <libsource lib="Device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A32DDE4</tstamp>
+    </comp>
+    <comp ref="D3">
+      <value>B130LAW</value>
+      <footprint>Diodes_SMD:D_SOD-123</footprint>
+      <fields>
+        <field name="Manufacturer">Diodes Incorporated</field>
+        <field name="Manufacturer part number">B130LAW-7-F</field>
+        <field name="Package">SOD123</field>
+      </fields>
+      <libsource lib="Device" part="D_Schottky"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A3543A0</tstamp>
+    </comp>
+    <comp ref="LED3">
+      <value>Power</value>
+      <footprint>LEDs:LED_0805_HandSoldering</footprint>
+      <fields>
+        <field name="Manufacturer">Kingbright</field>
+        <field name="Manufacturer part number">APT2012SGC</field>
+        <field name="Package">0805</field>
+      </fields>
+      <libsource lib="Device" part="LED_ALT"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A367234</tstamp>
+    </comp>
+    <comp ref="LED4">
+      <value>SIM_Power</value>
+      <footprint>LEDs:LED_0805_HandSoldering</footprint>
+      <fields>
+        <field name="Manufacturer">Kingbright</field>
+        <field name="Manufacturer part number">APT2012SECK</field>
+        <field name="Package">0805</field>
+      </fields>
+      <libsource lib="Device" part="LED_ALT"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A3672BD</tstamp>
+    </comp>
+    <comp ref="LED5">
+      <value>Network</value>
+      <footprint>LEDs:LED_0805_HandSoldering</footprint>
+      <fields>
+        <field name="Manufacturer">Kingbright</field>
+        <field name="Manufacturer part number">APT2012EC</field>
+      </fields>
+      <libsource lib="Device" part="LED_ALT"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A3673F0</tstamp>
+    </comp>
+    <comp ref="J2">
+      <value>Leds</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm</footprint>
+      <libsource lib="gpstracker-cache" part="GS2"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A36856F</tstamp>
+    </comp>
+    <comp ref="R8">
+      <value>1k</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <fields>
+        <field name="Manufacturer">Panasonic</field>
+        <field name="Manufacturer part number">ERJ-6GEYJ102V</field>
+        <field name="Package">0805</field>
+      </fields>
+      <libsource lib="freetronics_schematic" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A36B664</tstamp>
+    </comp>
+    <comp ref="U5">
+      <value>DS3231SN</value>
+      <footprint>Housings_SOIC:SOIC-16W_7.5x10.3mm_Pitch1.27mm</footprint>
+      <fields>
+        <field name="Manufacturer">Maxim Integrated</field>
+        <field name="Manufacturer part number">DS3231SN#</field>
+        <field name="Package">SOIC-16</field>
+      </fields>
+      <libsource lib="Timer_RTC" part="DS3231"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A372E7D</tstamp>
+    </comp>
+    <comp ref="C7">
+      <value>0.1uF</value>
+      <footprint>Capacitors_SMD:C_0805_HandSoldering</footprint>
+      <fields>
+        <field name="Manufacturer">Kemet</field>
+        <field name="Manufacturer part number">C0805C104M3RACTU</field>
+        <field name="Package">0805</field>
+      </fields>
+      <libsource lib="Device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A3745DB</tstamp>
+    </comp>
+    <comp ref="R6">
+      <value>10k</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <fields>
+        <field name="Manufacturer">Panasonic</field>
+        <field name="Manufacturer part number">ERJ-6GEYJ103V</field>
+        <field name="Package">0805</field>
+      </fields>
+      <libsource lib="freetronics_schematic" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A3767B3</tstamp>
+    </comp>
+    <comp ref="R11">
+      <value>160R</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <fields>
+        <field name="Manufacturer">Panasonic</field>
+        <field name="Manufacturer part number">ERJ-6GEYJ161V</field>
+        <field name="Package">0805</field>
+      </fields>
+      <libsource lib="freetronics_schematic" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A379BE8</tstamp>
+    </comp>
+    <comp ref="R12">
+      <value>20k</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <fields>
+        <field name="Manufacturer">Panasonic</field>
+        <field name="Manufacturer part number">ERJ-6GEYJ203V</field>
+        <field name="Package">0805</field>
+      </fields>
+      <libsource lib="freetronics_schematic" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A374BBC</tstamp>
+    </comp>
+    <comp ref="BT2">
+      <value>Backup battery</value>
+      <footprint>Battery_Holders:Keystone_1058_1x2032-CoinCell</footprint>
+      <fields>
+        <field name="Manufacturer">Keystone</field>
+        <field name="Manufacturer part number">1058</field>
+      </fields>
+      <libsource lib="Device" part="Battery_Cell"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A37CD58</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>2k</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <fields>
+        <field name="Manufacturer">Panasonic</field>
+        <field name="Manufacturer part number">ERJ-6GEYJ202V</field>
+        <field name="Package">0805</field>
+      </fields>
+      <libsource lib="freetronics_schematic" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A382E65</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>1k</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <fields>
+        <field name="Manufacturer">Panasonic</field>
+        <field name="Manufacturer part number">ERJ-6GEYJ102V</field>
+        <field name="Package">0805</field>
+      </fields>
+      <libsource lib="freetronics_schematic" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A383FD5</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>1k</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <fields>
+        <field name="Manufacturer">Panasonic</field>
+        <field name="Manufacturer part number">ERJ-6GEYJ102V</field>
+        <field name="Package">0805</field>
+      </fields>
+      <libsource lib="freetronics_schematic" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A385146</tstamp>
+    </comp>
+    <comp ref="BT1">
+      <value>External battery</value>
+      <footprint>Connectors_JST:JST_PH_S2B-PH-SM4-TB_02x2.00mm_Angled</footprint>
+      <fields>
+        <field name="Manufacturer">JST</field>
+        <field name="Manufacturer part number">S2B-PH-SM4-TB</field>
+      </fields>
+      <libsource lib="Device" part="Battery_Cell"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A3851EA</tstamp>
+    </comp>
+    <comp ref="R7">
+      <value>100k</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <fields>
+        <field name="Manufacturer">Panasonic</field>
+        <field name="Manufacturer part number">ERJ-6GEYJ104V</field>
+        <field name="Package">0805</field>
+      </fields>
+      <libsource lib="freetronics_schematic" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A3873FE</tstamp>
+    </comp>
+    <comp ref="IC1">
+      <value>SIM808</value>
+      <footprint>SIM808:QFN100P2400X2400X260-68N</footprint>
+      <datasheet>Module: GPS/GSM; GPRS; 2G; 1800MHz, 900MHz; GPIO, Serial, USB; SMD</datasheet>
+      <fields>
+        <field name="Manufacturer">Simcom</field>
+        <field name="Manufacturer part number">SIM808</field>
+      </fields>
+      <libsource lib="SIM808" part="SIM808"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A399223</tstamp>
+    </comp>
+    <comp ref="C9">
+      <value>4.7uF</value>
+      <footprint>Capacitors_SMD:C_0805_HandSoldering</footprint>
+      <fields>
+        <field name="Manufacturer">Kemet</field>
+        <field name="Manufacturer part number">C0805X475J4RACAUTO</field>
+        <field name="Package">0805</field>
+      </fields>
+      <libsource lib="Device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A3A0698</tstamp>
+    </comp>
+    <comp ref="J4">
+      <value>CONN_COAXIAL</value>
+      <footprint>Connectors_Molex:Molex_Microcoaxial_RF</footprint>
+      <fields>
+        <field name="Manufacturer">Linx Technologies</field>
+        <field name="Manufacturer part number">CONUFL001-SMD</field>
+      </fields>
+      <libsource lib="gpstracker-cache" part="CONN_COAXIAL"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A3A2527</tstamp>
+    </comp>
+    <comp ref="J5">
+      <value>CONN_COAXIAL</value>
+      <footprint>Connectors_Molex:Molex_Microcoaxial_RF</footprint>
+      <fields>
+        <field name="Manufacturer">Linx Technologies</field>
+        <field name="Manufacturer part number">CONUFL001-SMD</field>
+      </fields>
+      <libsource lib="gpstracker-cache" part="CONN_COAXIAL"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A3A2681</tstamp>
+    </comp>
+    <comp ref="R14">
+      <value>51k</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <fields>
+        <field name="Manufacturer">Panasonic</field>
+        <field name="Manufacturer part number">ERJ-6GEYJ513V</field>
+        <field name="Package">0805</field>
+      </fields>
+      <libsource lib="freetronics_schematic" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A35D19C</tstamp>
+    </comp>
+    <comp ref="R15">
+      <value>51k</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <fields>
+        <field name="Manufacturer">Panasonic</field>
+        <field name="Manufacturer part number">ERJ-6GEYJ513V</field>
+        <field name="Package">0805</field>
+      </fields>
+      <libsource lib="freetronics_schematic" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A35D761</tstamp>
+    </comp>
+    <comp ref="LED1">
+      <value>Chg</value>
+      <footprint>LEDs:LED_0805_HandSoldering</footprint>
+      <fields>
+        <field name="Manufacturer">Kingbright</field>
+        <field name="Manufacturer part number">APT2012SECK</field>
+        <field name="Package">0805</field>
+      </fields>
+      <libsource lib="Device" part="LED_ALT"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A364B29</tstamp>
+    </comp>
+    <comp ref="LED2">
+      <value>Done</value>
+      <footprint>LEDs:LED_0805_HandSoldering</footprint>
+      <fields>
+        <field name="Manufacturer">Kingbright</field>
+        <field name="Manufacturer part number">APT2012SGC</field>
+        <field name="Package">0805</field>
+      </fields>
+      <libsource lib="Device" part="LED_ALT"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A365279</tstamp>
+    </comp>
+    <comp ref="U3">
+      <value>24LC512</value>
+      <footprint>Housings_SOIC:SOIC-8_3.9x4.9mm_Pitch1.27mm</footprint>
+      <fields>
+        <field name="Manufacturer">Microchip</field>
+        <field name="Manufacturer part number">24LC512T-I/SN</field>
+        <field name="Package">SOIC-8</field>
+      </fields>
+      <libsource lib="Memory_EEPROM" part="24LC512"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A36AB54</tstamp>
+    </comp>
+    <comp ref="Q1">
+      <value>DMP1045U</value>
+      <footprint>TO_SOT_Packages_SMD:SOT-23_Handsoldering</footprint>
+      <fields>
+        <field name="Manufacturer">Diodes Incorporated</field>
+        <field name="Manufacturer part number">DMP1045U-7</field>
+        <field name="Package">SOT-23-3</field>
+      </fields>
+      <libsource lib="Device" part="Q_PMOS_GDS"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A36A98F</tstamp>
+    </comp>
+    <comp ref="SW1">
+      <value>Reset</value>
+      <footprint>Buttons_Switches_SMD:SW_SPST_B3S-1000</footprint>
+      <fields>
+        <field name="Manufacturer">Omron</field>
+        <field name="Manufacturer part number">B3S-1000</field>
+      </fields>
+      <libsource lib="Switch" part="SW_Push"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A36BA3E</tstamp>
+    </comp>
+    <comp ref="C15">
+      <value>0.1uF</value>
+      <footprint>Capacitors_SMD:C_0805_HandSoldering</footprint>
+      <fields>
+        <field name="Manufacturer">Kemet</field>
+        <field name="Manufacturer part number">C0805C104M3RACTU</field>
+        <field name="Package">0805</field>
+      </fields>
+      <libsource lib="Device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A376B81</tstamp>
+    </comp>
+    <comp ref="C17">
+      <value>33pF</value>
+      <footprint>Capacitors_SMD:C_0805_HandSoldering</footprint>
+      <fields>
+        <field name="Manufacturer">Kemet</field>
+        <field name="Manufacturer part number">C0805C330J4HACAUTO</field>
+        <field name="Package">0805</field>
+      </fields>
+      <libsource lib="Device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A37DB7E</tstamp>
+    </comp>
+    <comp ref="C18">
+      <value>10pF</value>
+      <footprint>Capacitors_SMD:C_0805_HandSoldering</footprint>
+      <fields>
+        <field name="Manufacturer">Kemet</field>
+        <field name="Manufacturer part number">C0805C100J4HACAUTO</field>
+        <field name="Package">0805</field>
+      </fields>
+      <libsource lib="Device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A37DC46</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>MMSZ5231BT1G</value>
+      <footprint>Diodes_SMD:D_SOD-123</footprint>
+      <fields>
+        <field name="Manufacturer">ON Semiconductor</field>
+        <field name="Manufacturer part number">MMSZ5231BT1G</field>
+        <field name="Package">SOD-123-2</field>
+      </fields>
+      <libsource lib="Device" part="D_Schottky"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A37E277</tstamp>
+    </comp>
+    <comp ref="C16">
+      <value>100uF</value>
+      <footprint>Capacitors_SMD:CP_Elec_6.3x7.7</footprint>
+      <fields>
+        <field name="Manufacturer">Panasonic</field>
+        <field name="Manufacturer part number">EEE-TPC101XAP</field>
+        <field name="Package">6.30mm</field>
+      </fields>
+      <libsource lib="Device" part="CP"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A380E9D</tstamp>
+    </comp>
+    <comp ref="C19">
+      <value>100uF</value>
+      <footprint>Capacitors_SMD:CP_Elec_6.3x7.7</footprint>
+      <fields>
+        <field name="Manufacturer">Panasonic</field>
+        <field name="Manufacturer part number">EEE-TPC101XAP</field>
+        <field name="Package">6.30mm</field>
+      </fields>
+      <libsource lib="Device" part="CP"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A38D9EB</tstamp>
+    </comp>
+    <comp ref="R9">
+      <value>1k</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <fields>
+        <field name="Manufacturer">Panasonic</field>
+        <field name="Manufacturer part number">ERJ-6GEYJ102V</field>
+        <field name="Package">0805</field>
+      </fields>
+      <libsource lib="freetronics_schematic" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A52A64D</tstamp>
+    </comp>
+    <comp ref="R10">
+      <value>1k</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <fields>
+        <field name="Manufacturer">Panasonic</field>
+        <field name="Manufacturer part number">ERJ-6GEYJ102V</field>
+        <field name="Package">0805</field>
+      </fields>
+      <libsource lib="freetronics_schematic" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A52A8F5</tstamp>
+    </comp>
+    <comp ref="R13">
+      <value>10k</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <fields>
+        <field name="Manufacturer">Panasonic</field>
+        <field name="Manufacturer part number">ERJ-6GEYJ103V</field>
+        <field name="Package">0805</field>
+      </fields>
+      <libsource lib="freetronics_schematic" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A52AEBC</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>1k</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <fields>
+        <field name="Manufacturer">Panasonic</field>
+        <field name="Manufacturer part number">ERJ-6GEYJ102V</field>
+        <field name="Package">0805</field>
+      </fields>
+      <libsource lib="freetronics_schematic" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A52B8B7</tstamp>
+    </comp>
+    <comp ref="R5">
+      <value>1k</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <fields>
+        <field name="Manufacturer">Panasonic</field>
+        <field name="Manufacturer part number">ERJ-6GEYJ102V</field>
+        <field name="Package">0805</field>
+      </fields>
+      <libsource lib="freetronics_schematic" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A52BACD</tstamp>
+    </comp>
+    <comp ref="U6">
+      <value>FT231XS</value>
+      <footprint>Housings_SSOP:SSOP-20_4.4x6.5mm_Pitch0.65mm</footprint>
+      <fields>
+        <field name="Manufacturer">FTDI</field>
+        <field name="Manufacturer part number">FT231XS-U</field>
+        <field name="Package">SSOP-20</field>
+      </fields>
+      <libsource lib="Interface_USB" part="FT231XS"/>
+      <sheetpath names="/Interface/" tstamps="/5A36795F/"/>
+      <tstamp>5A36832A</tstamp>
+    </comp>
+    <comp ref="C12">
+      <value>0.1uF</value>
+      <footprint>Capacitors_SMD:C_0805_HandSoldering</footprint>
+      <fields>
+        <field name="Manufacturer">Kemet</field>
+        <field name="Manufacturer part number">C0805C104M3RACTU</field>
+        <field name="Package">0805</field>
+      </fields>
+      <libsource lib="Device" part="C"/>
+      <sheetpath names="/Interface/" tstamps="/5A36795F/"/>
+      <tstamp>5A368395</tstamp>
+    </comp>
+    <comp ref="C13">
+      <value>47pF</value>
+      <footprint>Capacitors_SMD:C_0805_HandSoldering</footprint>
+      <fields>
+        <field name="Manufacturer">Kemet</field>
+        <field name="Manufacturer part number">C0805C470J4HACAUTO</field>
+        <field name="Package">0805</field>
+      </fields>
+      <libsource lib="Device" part="C"/>
+      <sheetpath names="/Interface/" tstamps="/5A36795F/"/>
+      <tstamp>5A3683E7</tstamp>
+    </comp>
+    <comp ref="C14">
+      <value>0.1uF</value>
+      <footprint>Capacitors_SMD:C_0805_HandSoldering</footprint>
+      <fields>
+        <field name="Manufacturer">Kemet</field>
+        <field name="Manufacturer part number">C0805C104M3RACTU</field>
+        <field name="Package">0805</field>
+      </fields>
+      <libsource lib="Device" part="C"/>
+      <sheetpath names="/Interface/" tstamps="/5A36795F/"/>
+      <tstamp>5A368425</tstamp>
+    </comp>
+    <comp ref="R18">
+      <value>1k</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <fields>
+        <field name="Manufacturer">Panasonic</field>
+        <field name="Manufacturer part number">ERJ-6GEYJ102V</field>
+        <field name="Package">0805</field>
+      </fields>
+      <libsource lib="freetronics_schematic" part="R"/>
+      <sheetpath names="/Interface/" tstamps="/5A36795F/"/>
+      <tstamp>5A3684B8</tstamp>
+    </comp>
+    <comp ref="C11">
+      <value>47pF</value>
+      <footprint>Capacitors_SMD:C_0805_HandSoldering</footprint>
+      <fields>
+        <field name="Manufacturer">Kemet</field>
+        <field name="Manufacturer part number">C0805C470J4HACAUTO</field>
+        <field name="Package">0805</field>
+      </fields>
+      <libsource lib="Device" part="C"/>
+      <sheetpath names="/Interface/" tstamps="/5A36795F/"/>
+      <tstamp>5A368502</tstamp>
+    </comp>
+    <comp ref="R16">
+      <value>27R</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <fields>
+        <field name="Manufacturer">Panasonic</field>
+        <field name="Manufacturer part number">ERJ-6GEYJ270V</field>
+        <field name="Package">0805</field>
+      </fields>
+      <libsource lib="freetronics_schematic" part="R"/>
+      <sheetpath names="/Interface/" tstamps="/5A36795F/"/>
+      <tstamp>5A36875E</tstamp>
+    </comp>
+    <comp ref="LED6">
+      <value>Rx</value>
+      <footprint>LEDs:LED_0805_HandSoldering</footprint>
+      <fields>
+        <field name="Manufacturer">Kingbright</field>
+        <field name="Manufacturer part number">APT2012SYCK</field>
+        <field name="Package">0805</field>
+      </fields>
+      <libsource lib="Device" part="LED_ALT"/>
+      <sheetpath names="/Interface/" tstamps="/5A36795F/"/>
+      <tstamp>5A3687F3</tstamp>
+    </comp>
+    <comp ref="LED7">
+      <value>Tx</value>
+      <footprint>LEDs:LED_0805_HandSoldering</footprint>
+      <fields>
+        <field name="Manufacturer">Kingbright</field>
+        <field name="Manufacturer part number">APT2012EC</field>
+        <field name="Package">0805</field>
+      </fields>
+      <libsource lib="Device" part="LED_ALT"/>
+      <sheetpath names="/Interface/" tstamps="/5A36795F/"/>
+      <tstamp>5A368F70</tstamp>
+    </comp>
+    <comp ref="J1">
+      <value>Molex 105133-0002</value>
+      <footprint>Connectors_USB:USB_Micro-B_Wuerth-614105150721_Vertical_CircularHoles</footprint>
+      <fields>
+        <field name="Manufacturer">Wuerth</field>
+        <field name="Manufacturer part number">614105150721</field>
+      </fields>
+      <libsource lib="Connector_Specialized" part="USB_B_Micro"/>
+      <sheetpath names="/Interface/" tstamps="/5A36795F/"/>
+      <tstamp>5A36E61B</tstamp>
+    </comp>
+    <comp ref="C10">
+      <value>4.7uF</value>
+      <footprint>Capacitors_SMD:C_0805_HandSoldering</footprint>
+      <fields>
+        <field name="Manufacturer">Kemet</field>
+        <field name="Manufacturer part number">C0805X475J4RACAUTO</field>
+        <field name="Package">0805</field>
+      </fields>
+      <libsource lib="Device" part="C"/>
+      <sheetpath names="/Interface/" tstamps="/5A36795F/"/>
+      <tstamp>5A371566</tstamp>
+    </comp>
+    <comp ref="R19">
+      <value>1k</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <fields>
+        <field name="Manufacturer">Panasonic</field>
+        <field name="Manufacturer part number">ERJ-6GEYJ102V</field>
+        <field name="Package">0805</field>
+      </fields>
+      <libsource lib="freetronics_schematic" part="R"/>
+      <sheetpath names="/Interface/" tstamps="/5A36795F/"/>
+      <tstamp>5A52C333</tstamp>
+    </comp>
+    <comp ref="R17">
+      <value>27R</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <fields>
+        <field name="Manufacturer">Panasonic</field>
+        <field name="Manufacturer part number">ERJ-6GEYJ270V</field>
+        <field name="Package">0805</field>
+      </fields>
+      <libsource lib="freetronics_schematic" part="R"/>
+      <sheetpath names="/Interface/" tstamps="/5A36795F/"/>
+      <tstamp>5A534FBA</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Memory_EEPROM" part="24LC16">
+      <aliases>
+        <alias>24LC00</alias>
+        <alias>24LC01</alias>
+        <alias>24LC02</alias>
+        <alias>24LC04</alias>
+        <alias>24LC08</alias>
+        <alias>24LC32</alias>
+        <alias>24LC64</alias>
+        <alias>24LC128</alias>
+        <alias>24LC256</alias>
+        <alias>24LC512</alias>
+        <alias>24LC1025</alias>
+      </aliases>
+      <description>I2C Serial EEPROM, 16kb</description>
+      <docs>http://ww1.microchip.com/downloads/en/DeviceDoc/21703d.pdf</docs>
+      <footprints>
+        <fp>SOIC*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">24LC16</field>
+        <field name="Footprint">Package_SOIC:SOIC-8_3.9x4.9mm_P1.27mm</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A0" type="input"/>
+        <pin num="2" name="A1" type="input"/>
+        <pin num="3" name="A2" type="input"/>
+        <pin num="4" name="GND" type="power_in"/>
+        <pin num="5" name="SDA" type="BiDi"/>
+        <pin num="6" name="SCL" type="input"/>
+        <pin num="7" name="WP" type="input"/>
+        <pin num="8" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="gpstracker-cache" part="ATMEGA168A-AU">
+      <aliases>
+        <alias>ATMEGA48A-AU</alias>
+        <alias>ATMEGA48PA-AU</alias>
+        <alias>ATMEGA88A-AU</alias>
+        <alias>ATMEGA88PA-AU</alias>
+        <alias>ATMEGA168PA-AU</alias>
+        <alias>ATMEGA328-AU</alias>
+        <alias>ATMEGA328P-AU</alias>
+      </aliases>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">ATMEGA168A-AU</field>
+        <field name="Footprint">TQFP32</field>
+      </fields>
+      <pins>
+        <pin num="1" name="(PCINT19/OC2B/INT1)PD3" type="BiDi"/>
+        <pin num="2" name="(PCINT20/XCK/T0)PD4" type="BiDi"/>
+        <pin num="3" name="GND" type="power_in"/>
+        <pin num="4" name="VCC" type="power_in"/>
+        <pin num="5" name="GND" type="power_in"/>
+        <pin num="6" name="VCC" type="power_in"/>
+        <pin num="7" name="(PCINT6/XTAL1/TOSC1)PB6" type="BiDi"/>
+        <pin num="8" name="(PCINT7/XTAL2/TOSC2)PB7" type="BiDi"/>
+        <pin num="9" name="(PCINT21/OC0B/T1)PD5" type="BiDi"/>
+        <pin num="10" name="(PCINT22/OC0A/AIN0)PD6" type="BiDi"/>
+        <pin num="11" name="(PCINT23/AIN1)PD7" type="BiDi"/>
+        <pin num="12" name="(PCINT0/CLKO/ICP1)PB0" type="BiDi"/>
+        <pin num="13" name="(PCINT1/OC1A)PB1" type="BiDi"/>
+        <pin num="14" name="(PCINT2/OC1B/~SS~)PB2" type="BiDi"/>
+        <pin num="15" name="(PCINT3/OC2A/MOSI)PB3" type="BiDi"/>
+        <pin num="16" name="(PCINT4/MISO)PB4" type="BiDi"/>
+        <pin num="17" name="(PCINT5/SCK)PB5" type="BiDi"/>
+        <pin num="18" name="AVCC" type="power_in"/>
+        <pin num="19" name="ADC6" type="input"/>
+        <pin num="20" name="AREF" type="BiDi"/>
+        <pin num="21" name="GND" type="power_in"/>
+        <pin num="22" name="ADC7" type="input"/>
+        <pin num="23" name="(PCINT8/ADC0)PC0" type="BiDi"/>
+        <pin num="24" name="(PCINT9/ADC1)PC1" type="BiDi"/>
+        <pin num="25" name="(PCINT10/ADC2)PC2" type="BiDi"/>
+        <pin num="26" name="(PCINT11/ADC3)PC3" type="BiDi"/>
+        <pin num="27" name="(PCINT12/SDA/ADC4)PC4" type="BiDi"/>
+        <pin num="28" name="(PCINT13/SCL/ADC5)PC5" type="BiDi"/>
+        <pin num="29" name="(PCINT14/~RESET~)PC6" type="BiDi"/>
+        <pin num="30" name="(PCINT16/RXD)PD0" type="BiDi"/>
+        <pin num="31" name="(PCINT17/TXD)PD1" type="BiDi"/>
+        <pin num="32" name="(PCINT18/INT0)PD2" type="BiDi"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Battery_Cell">
+      <description>single battery cell</description>
+      <fields>
+        <field name="Reference">BT</field>
+        <field name="Value">Battery_Cell</field>
+      </fields>
+      <pins>
+        <pin num="1" name="+" type="passive"/>
+        <pin num="2" name="-" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="gpstracker-cache" part="CONN_02X03">
+      <footprints>
+        <fp>Pin_Header_Straight_2X*</fp>
+        <fp>Pin_Header_Angled_2X*</fp>
+        <fp>Socket_Strip_Straight_2X*</fp>
+        <fp>Socket_Strip_Angled_2X*</fp>
+        <fp>IDC_Header_Straight_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">CONN_02X03</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+        <pin num="3" name="P3" type="passive"/>
+        <pin num="4" name="P4" type="passive"/>
+        <pin num="5" name="P5" type="passive"/>
+        <pin num="6" name="P6" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="gpstracker-cache" part="CONN_COAXIAL">
+      <footprints>
+        <fp>*BNC*</fp>
+        <fp>*SMA*</fp>
+        <fp>*SMB*</fp>
+        <fp>*SMC*</fp>
+        <fp>*Cinch*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">CONN_COAXIAL</field>
+      </fields>
+      <pins>
+        <pin num="1" name="In" type="passive"/>
+        <pin num="2" name="Ext" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="CP">
+      <description>Polarised capacitor</description>
+      <footprints>
+        <fp>CP_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">CP</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Timer_RTC" part="DS3231">
+      <description>Extremely Accurate I2C-Integrated RTC/TCXO/Crystal SOIC-16</description>
+      <docs>http://datasheets.maximintegrated.com/en/ds/DS3231.pdf</docs>
+      <footprints>
+        <fp>SOIC-*_7.5x10.3mm_Pitch1.27mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">DS3231</field>
+        <field name="Footprint">Package_SOIC:SOIC-16_7.5x10.3mm_P1.27mm</field>
+      </fields>
+      <pins>
+        <pin num="1" name="32KHZ" type="openCol"/>
+        <pin num="2" name="VCC" type="power_in"/>
+        <pin num="3" name="~INT~/SQW" type="openCol"/>
+        <pin num="4" name="~RST" type="BiDi"/>
+        <pin num="5" name="NC" type="passive"/>
+        <pin num="6" name="NC" type="passive"/>
+        <pin num="7" name="NC" type="passive"/>
+        <pin num="8" name="NC" type="passive"/>
+        <pin num="9" name="NC" type="passive"/>
+        <pin num="10" name="NC" type="passive"/>
+        <pin num="11" name="NC" type="passive"/>
+        <pin num="12" name="NC" type="passive"/>
+        <pin num="13" name="GND" type="power_in"/>
+        <pin num="14" name="VBAT" type="power_in"/>
+        <pin num="15" name="SDA" type="BiDi"/>
+        <pin num="16" name="SCL" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="D_Schottky">
+      <description>Schottky diode</description>
+      <footprints>
+        <fp>TO-???*</fp>
+        <fp>*SingleDiode</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D_Schottky</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Interface_USB" part="FT231XS">
+      <description>Full Speed USB to Full Handshake UART, SSOP-20</description>
+      <docs>http://www.ftdichip.com/Products/ICs/FT231X.html</docs>
+      <footprints>
+        <fp>*SSOP*3.9x8.7mm*P0.635mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">FT231XS</field>
+        <field name="Footprint">Package_SSOP:SSOP-20_3.9x8.7mm_P0.635mm</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~DTR" type="output"/>
+        <pin num="2" name="~RTS" type="input"/>
+        <pin num="3" name="VCCIO" type="power_in"/>
+        <pin num="4" name="RXD" type="input"/>
+        <pin num="5" name="~RI" type="input"/>
+        <pin num="6" name="GND" type="power_in"/>
+        <pin num="7" name="~DSR" type="output"/>
+        <pin num="8" name="~DCD" type="input"/>
+        <pin num="9" name="~CTS" type="input"/>
+        <pin num="10" name="CBUS2" type="BiDi"/>
+        <pin num="11" name="USBDP" type="BiDi"/>
+        <pin num="12" name="USBDM" type="BiDi"/>
+        <pin num="13" name="3V3OUT" type="power_out"/>
+        <pin num="14" name="~RESET" type="input"/>
+        <pin num="15" name="VCC" type="power_in"/>
+        <pin num="16" name="GND" type="power_in"/>
+        <pin num="17" name="CBUS1" type="BiDi"/>
+        <pin num="18" name="CBUS0" type="BiDi"/>
+        <pin num="19" name="CBUS3" type="BiDi"/>
+        <pin num="20" name="TXD" type="output"/>
+      </pins>
+    </libpart>
+    <libpart lib="gpstracker-cache" part="GS2">
+      <footprints>
+        <fp>GS*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">GS2</field>
+        <field name="Footprint">Connectors:GS2</field>
+      </fields>
+      <pins>
+        <pin num="1" name="G1" type="passive"/>
+        <pin num="2" name="G2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="LED_ALT">
+      <description>LED generic, alternativ symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>LED*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED_ALT</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="gpstracker-cache" part="MCP1700T-3002E/TT">
+      <footprints>
+        <fp>SOT-23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">MCP1700T-3002E/TT</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="power_in"/>
+        <pin num="2" name="VO" type="power_out"/>
+        <pin num="3" name="VI" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="gpstracker-cache" part="MCP73832-5-OT-RESCUE-gpstracker">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">MCP73832-5-OT-RESCUE-gpstracker</field>
+        <field name="Footprint">TO_SOT_Packages_SMD:SOT-23-5</field>
+      </fields>
+      <pins>
+        <pin num="1" name="STAT" type="output"/>
+        <pin num="2" name="Vss" type="power_in"/>
+        <pin num="3" name="Vbat" type="power_out"/>
+        <pin num="4" name="Vdd" type="power_in"/>
+        <pin num="5" name="PROG" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Specialized" part="Micro_SD_Card">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Micro_SD_Card</field>
+      </fields>
+      <pins>
+        <pin num="1" name="DAT2" type="BiDi"/>
+        <pin num="2" name="DAT3/CD" type="BiDi"/>
+        <pin num="3" name="CMD" type="input"/>
+        <pin num="4" name="VDD" type="power_in"/>
+        <pin num="5" name="CLK" type="input"/>
+        <pin num="6" name="VSS" type="power_in"/>
+        <pin num="7" name="DAT0" type="input"/>
+        <pin num="8" name="DAT1" type="input"/>
+        <pin num="9" name="SHIELD" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Q_PMOS_GDS">
+      <description>Transistor P-MOSFET with substrate diode (general)</description>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">Q_PMOS_GDS</field>
+      </fields>
+      <pins>
+        <pin num="1" name="G" type="input"/>
+        <pin num="2" name="D" type="passive"/>
+        <pin num="3" name="S" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="freetronics_schematic" part="R">
+      <description>Resistor</description>
+      <footprints>
+        <fp>RES_*</fp>
+        <fp>*_RES</fp>
+        <fp>0402</fp>
+        <fp>0603</fp>
+        <fp>0805</fp>
+        <fp>1206</fp>
+        <fp>1210</fp>
+        <fp>1812</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SIM808" part="SIM808">
+      <fields>
+        <field name="Reference">IC</field>
+        <field name="Value">SIM808</field>
+        <field name="Footprint">QFN100P2400X2400X260-68N</field>
+        <field name="Datasheet">Module: GPS/GSM; GPRS; 2G; 1800MHz, 900MHz; GPIO, Serial, USB; SMD</field>
+        <field name="MF">Simcom</field>
+        <field name="Availability">Unavailable</field>
+        <field name="Price">18.48 USD</field>
+        <field name="MP">SIM808</field>
+        <field name="Package">None</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="passive"/>
+        <pin num="2" name="GND" type="passive"/>
+        <pin num="3" name="GND" type="passive"/>
+        <pin num="4" name="VBAT" type="input"/>
+        <pin num="5" name="VBAT" type="input"/>
+        <pin num="6" name="VBAT" type="input"/>
+        <pin num="7" name="VDD_EXT" type="output"/>
+        <pin num="8" name="PWRKEY" type="input"/>
+        <pin num="9" name="DTR" type="input"/>
+        <pin num="10" name="RI" type="output"/>
+        <pin num="11" name="DCD" type="output"/>
+        <pin num="12" name="CTS" type="output"/>
+        <pin num="13" name="RTS" type="input"/>
+        <pin num="14" name="TXD" type="output"/>
+        <pin num="15" name="RXD" type="input"/>
+        <pin num="16" name="!RESET" type="input"/>
+        <pin num="17" name="VRTC" type="input"/>
+        <pin num="18" name="GND" type="passive"/>
+        <pin num="19" name="MIC1P" type="input"/>
+        <pin num="20" name="MIC1N" type="input"/>
+        <pin num="21" name="SPK1P" type="output"/>
+        <pin num="22" name="SPK1N" type="output"/>
+        <pin num="23" name="ADC1" type="input"/>
+        <pin num="24" name="ADC2" type="input"/>
+        <pin num="25" name="VBUS" type="input"/>
+        <pin num="26" name="USB_DP" type="BiDi"/>
+        <pin num="27" name="USB_DM" type="BiDi"/>
+        <pin num="28" name="GND" type="passive"/>
+        <pin num="29" name="SIM_VDD" type="output"/>
+        <pin num="30" name="SIM_DATA" type="BiDi"/>
+        <pin num="31" name="SIM_CLK" type="output"/>
+        <pin num="32" name="SIM_RST" type="output"/>
+        <pin num="33" name="SIM_PRESENCE" type="input"/>
+        <pin num="34" name="GND" type="passive"/>
+        <pin num="35" name="GPS_RF_IN" type="input"/>
+        <pin num="36" name="GND" type="passive"/>
+        <pin num="37" name="1PPS" type="input"/>
+        <pin num="38" name="SDA" type="BiDi"/>
+        <pin num="39" name="SCL" type="output"/>
+        <pin num="40" name="GND" type="passive"/>
+        <pin num="41" name="PWM2" type="output"/>
+        <pin num="42" name="PWM1" type="output"/>
+        <pin num="43" name="GPIO5" type="BiDi"/>
+        <pin num="44" name="GPIO6" type="BiDi"/>
+        <pin num="45" name="PCM_SYNC" type="output"/>
+        <pin num="46" name="PCM_CLK" type="input"/>
+        <pin num="47" name="PCM_IN" type="input"/>
+        <pin num="48" name="PCM_OUT" type="output"/>
+        <pin num="49" name="STATUS" type="output"/>
+        <pin num="50" name="NETLIGHT" type="output"/>
+        <pin num="51" name="GND" type="passive"/>
+        <pin num="52" name="GND" type="passive"/>
+        <pin num="53" name="ANT_BT" type="BiDi"/>
+        <pin num="54" name="GND" type="passive"/>
+        <pin num="55" name="ROW3" type="output"/>
+        <pin num="56" name="ROW2" type="output"/>
+        <pin num="57" name="ROW1" type="output"/>
+        <pin num="58" name="ROW0" type="output"/>
+        <pin num="59" name="COL3" type="input"/>
+        <pin num="60" name="COL2" type="input"/>
+        <pin num="61" name="COL1" type="input"/>
+        <pin num="62" name="COL0" type="input"/>
+        <pin num="63" name="RF_SYNC" type="output"/>
+        <pin num="64" name="GND" type="passive"/>
+        <pin num="65" name="GND" type="passive"/>
+        <pin num="66" name="GSM_RF_IN" type="BiDi"/>
+        <pin num="67" name="GND" type="passive"/>
+        <pin num="68" name="GND" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Specialized" part="SIM_Card">
+      <footprints>
+        <fp>*SIM*Card*Holder*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">SIM_Card</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VCC" type="power_in"/>
+        <pin num="2" name="RST" type="input"/>
+        <pin num="3" name="CLK" type="input"/>
+        <pin num="5" name="GND" type="power_in"/>
+        <pin num="6" name="VPP" type="input"/>
+        <pin num="7" name="I/O" type="BiDi"/>
+      </pins>
+    </libpart>
+    <libpart lib="freetronics_schematic" part="SMF05C">
+      <description>SMF05C TVS 5V</description>
+      <docs>http://www.semtech.com/images/datasheet/smf05c.pdf</docs>
+      <footprints>
+        <fp>SOT363</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">TV</field>
+        <field name="Value">SMF05C</field>
+        <field name="Footprint">FT:SOT363</field>
+      </fields>
+      <pins>
+        <pin num="1" name="IO1" type="passive"/>
+        <pin num="2" name="GND" type="passive"/>
+        <pin num="3" name="IO2" type="passive"/>
+        <pin num="4" name="IO3" type="passive"/>
+        <pin num="5" name="IO4" type="passive"/>
+        <pin num="6" name="IO5" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Switch" part="SW_Push">
+      <description>Push button switch, generic, two pins</description>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_Push</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Specialized" part="USB_B_Micro">
+      <aliases>
+        <alias>USB_B_Mini</alias>
+      </aliases>
+      <footprints>
+        <fp>USB*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">USB_B_Micro</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VBUS" type="power_out"/>
+        <pin num="2" name="D-" type="passive"/>
+        <pin num="3" name="D+" type="passive"/>
+        <pin num="4" name="ID" type="passive"/>
+        <pin num="5" name="GND" type="power_out"/>
+        <pin num="6" name="Shield" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="SIM808">
+      <uri>D:\working-copies\Engineering\gpstacker\library\SIM808.lib</uri>
+    </library>
+    <library logical="freetronics_schematic">
+      <uri>D:\working-copies\Engineering\gpstacker\library\freetronics\freetronics_schematic.lib</uri>
+    </library>
+    <library logical="gpstracker-cache">
+      <uri>D:\working-copies\Engineering\gpstacker\gpstracker-cache.lib</uri>
+    </library>
+    <library logical="Timer_RTC">
+      <uri>C:\Apps\Engineering\KiCad\share\kicad\library\Timer_RTC.lib</uri>
+    </library>
+    <library logical="Switch">
+      <uri>C:\Apps\Engineering\KiCad\share\kicad\library\Switch.lib</uri>
+    </library>
+    <library logical="Connector_Specialized">
+      <uri>C:\Apps\Engineering\KiCad\share\kicad\library\Connector_Specialized.lib</uri>
+    </library>
+    <library logical="Memory_EEPROM">
+      <uri>C:\Apps\Engineering\KiCad\share\kicad\library\Memory_EEPROM.lib</uri>
+    </library>
+    <library logical="Device">
+      <uri>C:\Apps\Engineering\KiCad\share\kicad\library\Device.lib</uri>
+    </library>
+    <library logical="Interface_USB">
+      <uri>C:\Apps\Engineering\KiCad\share\kicad\library\Interface_USB.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="/SIM808_P">
+      <node ref="U2" pin="13"/>
+      <node ref="IC1" pin="8"/>
+    </net>
+    <net code="2" name="Net-(J6-Pad1)">
+      <node ref="R15" pin="1"/>
+      <node ref="J6" pin="1"/>
+    </net>
+    <net code="3" name="Net-(J6-Pad8)">
+      <node ref="R14" pin="1"/>
+      <node ref="J6" pin="8"/>
+    </net>
+    <net code="4" name="/ARD_IO10">
+      <node ref="J6" pin="2"/>
+      <node ref="U2" pin="14"/>
+    </net>
+    <net code="5" name="Net-(U2-Pad2)">
+      <node ref="U2" pin="2"/>
+    </net>
+    <net code="6" name="GND">
+      <node ref="J3" pin="5"/>
+      <node ref="SW1" pin="1"/>
+      <node ref="C15" pin="2"/>
+      <node ref="ICSP1" pin="6"/>
+      <node ref="C18" pin="2"/>
+      <node ref="D1" pin="2"/>
+      <node ref="C10" pin="2"/>
+      <node ref="U3" pin="4"/>
+      <node ref="U3" pin="1"/>
+      <node ref="U3" pin="2"/>
+      <node ref="U3" pin="3"/>
+      <node ref="U1" pin="2"/>
+      <node ref="U5" pin="9"/>
+      <node ref="IC1" pin="3"/>
+      <node ref="IC1" pin="2"/>
+      <node ref="IC1" pin="1"/>
+      <node ref="U5" pin="13"/>
+      <node ref="U5" pin="12"/>
+      <node ref="U5" pin="11"/>
+      <node ref="IC1" pin="40"/>
+      <node ref="U5" pin="8"/>
+      <node ref="U5" pin="7"/>
+      <node ref="U5" pin="6"/>
+      <node ref="U5" pin="5"/>
+      <node ref="U5" pin="10"/>
+      <node ref="BT2" pin="2"/>
+      <node ref="C7" pin="2"/>
+      <node ref="IC1" pin="36"/>
+      <node ref="IC1" pin="54"/>
+      <node ref="IC1" pin="64"/>
+      <node ref="IC1" pin="65"/>
+      <node ref="IC1" pin="67"/>
+      <node ref="IC1" pin="51"/>
+      <node ref="IC1" pin="52"/>
+      <node ref="IC1" pin="18"/>
+      <node ref="R7" pin="2"/>
+      <node ref="BT1" pin="2"/>
+      <node ref="IC1" pin="34"/>
+      <node ref="R1" pin="2"/>
+      <node ref="IC1" pin="28"/>
+      <node ref="IC1" pin="68"/>
+      <node ref="C8" pin="2"/>
+      <node ref="C1" pin="1"/>
+      <node ref="J2" pin="1"/>
+      <node ref="U6" pin="6"/>
+      <node ref="C3" pin="2"/>
+      <node ref="U6" pin="9"/>
+      <node ref="C19" pin="2"/>
+      <node ref="C4" pin="2"/>
+      <node ref="C6" pin="2"/>
+      <node ref="J1" pin="5"/>
+      <node ref="J1" pin="6"/>
+      <node ref="J5" pin="2"/>
+      <node ref="C2" pin="2"/>
+      <node ref="U2" pin="21"/>
+      <node ref="LED2" pin="1"/>
+      <node ref="TV1" pin="2"/>
+      <node ref="U4" pin="1"/>
+      <node ref="J6" pin="6"/>
+      <node ref="J6" pin="9"/>
+      <node ref="U2" pin="5"/>
+      <node ref="C16" pin="2"/>
+      <node ref="U6" pin="16"/>
+      <node ref="C17" pin="2"/>
+      <node ref="C12" pin="2"/>
+      <node ref="C13" pin="2"/>
+      <node ref="C9" pin="2"/>
+      <node ref="U2" pin="3"/>
+      <node ref="C14" pin="2"/>
+      <node ref="C11" pin="2"/>
+      <node ref="J4" pin="2"/>
+    </net>
+    <net code="7" name="+1V8">
+      <node ref="TV1" pin="3"/>
+      <node ref="J3" pin="1"/>
+      <node ref="IC1" pin="29"/>
+    </net>
+    <net code="8" name="/ARD_MOSI">
+      <node ref="J6" pin="3"/>
+      <node ref="ICSP1" pin="4"/>
+      <node ref="U2" pin="15"/>
+    </net>
+    <net code="9" name="/ARD_MISO">
+      <node ref="J6" pin="7"/>
+      <node ref="U2" pin="16"/>
+      <node ref="ICSP1" pin="1"/>
+    </net>
+    <net code="10" name="/ARD_SCK">
+      <node ref="ICSP1" pin="3"/>
+      <node ref="J6" pin="5"/>
+      <node ref="U2" pin="17"/>
+    </net>
+    <net code="11" name="/SDA">
+      <node ref="U3" pin="5"/>
+      <node ref="U2" pin="27"/>
+      <node ref="R4" pin="1"/>
+      <node ref="U5" pin="15"/>
+    </net>
+    <net code="12" name="/SCL">
+      <node ref="U3" pin="6"/>
+      <node ref="U2" pin="28"/>
+      <node ref="R5" pin="1"/>
+      <node ref="U5" pin="16"/>
+    </net>
+    <net code="13" name="+2V8">
+      <node ref="R13" pin="2"/>
+      <node ref="IC1" pin="7"/>
+    </net>
+    <net code="14" name="/GSM">
+      <node ref="J5" pin="1"/>
+      <node ref="IC1" pin="66"/>
+    </net>
+    <net code="15" name="Net-(IC1-Pad53)">
+      <node ref="IC1" pin="53"/>
+    </net>
+    <net code="16" name="Net-(LED1-Pad1)">
+      <node ref="LED1" pin="1"/>
+      <node ref="R3" pin="1"/>
+    </net>
+    <net code="17" name="VBUS">
+      <node ref="J1" pin="1"/>
+      <node ref="C10" pin="1"/>
+      <node ref="D3" pin="2"/>
+      <node ref="LED1" pin="2"/>
+      <node ref="U6" pin="15"/>
+      <node ref="C1" pin="2"/>
+      <node ref="Q1" pin="1"/>
+      <node ref="C14" pin="1"/>
+      <node ref="R7" pin="1"/>
+      <node ref="U1" pin="4"/>
+    </net>
+    <net code="18" name="Net-(IC1-Pad22)">
+      <node ref="IC1" pin="22"/>
+    </net>
+    <net code="19" name="Net-(IC1-Pad24)">
+      <node ref="IC1" pin="24"/>
+    </net>
+    <net code="20" name="Net-(IC1-Pad43)">
+      <node ref="IC1" pin="43"/>
+    </net>
+    <net code="21" name="Net-(IC1-Pad44)">
+      <node ref="IC1" pin="44"/>
+    </net>
+    <net code="22" name="Net-(IC1-Pad25)">
+      <node ref="IC1" pin="25"/>
+    </net>
+    <net code="23" name="Net-(IC1-Pad26)">
+      <node ref="IC1" pin="26"/>
+    </net>
+    <net code="24" name="Net-(IC1-Pad27)">
+      <node ref="IC1" pin="27"/>
+    </net>
+    <net code="25" name="Net-(IC1-Pad33)">
+      <node ref="IC1" pin="33"/>
+    </net>
+    <net code="26" name="Net-(IC1-Pad21)">
+      <node ref="IC1" pin="21"/>
+    </net>
+    <net code="27" name="Net-(LED2-Pad2)">
+      <node ref="R2" pin="1"/>
+      <node ref="LED2" pin="2"/>
+    </net>
+    <net code="28" name="Net-(IC1-Pad48)">
+      <node ref="IC1" pin="48"/>
+    </net>
+    <net code="29" name="Net-(IC1-Pad45)">
+      <node ref="IC1" pin="45"/>
+    </net>
+    <net code="30" name="Net-(IC1-Pad58)">
+      <node ref="IC1" pin="58"/>
+    </net>
+    <net code="31" name="Net-(IC1-Pad57)">
+      <node ref="IC1" pin="57"/>
+    </net>
+    <net code="32" name="Net-(IC1-Pad56)">
+      <node ref="IC1" pin="56"/>
+    </net>
+    <net code="33" name="Net-(IC1-Pad55)">
+      <node ref="IC1" pin="55"/>
+    </net>
+    <net code="34" name="Net-(U3-Pad7)">
+      <node ref="U3" pin="7"/>
+    </net>
+    <net code="35" name="/DTR">
+      <node ref="C5" pin="2"/>
+      <node ref="U6" pin="1"/>
+    </net>
+    <net code="36" name="/ARD_TX">
+      <node ref="U6" pin="4"/>
+      <node ref="U2" pin="31"/>
+    </net>
+    <net code="37" name="/ARD_RX">
+      <node ref="U6" pin="20"/>
+      <node ref="U2" pin="30"/>
+    </net>
+    <net code="38" name="Net-(LED4-Pad2)">
+      <node ref="R9" pin="1"/>
+      <node ref="LED4" pin="2"/>
+    </net>
+    <net code="39" name="Net-(TV1-Pad4)">
+      <node ref="TV1" pin="4"/>
+    </net>
+    <net code="40" name="/GPS">
+      <node ref="J4" pin="1"/>
+      <node ref="IC1" pin="35"/>
+    </net>
+    <net code="41" name="/SIM808_S">
+      <node ref="U2" pin="12"/>
+      <node ref="IC1" pin="49"/>
+      <node ref="R9" pin="2"/>
+    </net>
+    <net code="42" name="Net-(LED5-Pad2)">
+      <node ref="R10" pin="1"/>
+      <node ref="LED5" pin="2"/>
+    </net>
+    <net code="43" name="/NETWORK_LED">
+      <node ref="R10" pin="2"/>
+      <node ref="IC1" pin="50"/>
+    </net>
+    <net code="44" name="+3V3">
+      <node ref="R4" pin="2"/>
+      <node ref="R8" pin="2"/>
+      <node ref="R12" pin="2"/>
+      <node ref="R6" pin="2"/>
+      <node ref="R15" pin="2"/>
+      <node ref="C19" pin="1"/>
+      <node ref="R14" pin="2"/>
+      <node ref="C15" pin="1"/>
+      <node ref="J6" pin="4"/>
+      <node ref="R5" pin="2"/>
+      <node ref="U2" pin="6"/>
+      <node ref="U2" pin="4"/>
+      <node ref="U4" pin="2"/>
+      <node ref="C8" pin="1"/>
+      <node ref="U2" pin="18"/>
+      <node ref="ICSP1" pin="2"/>
+    </net>
+    <net code="45" name="/RTC_PWR">
+      <node ref="R11" pin="2"/>
+      <node ref="U2" pin="23"/>
+      <node ref="C7" pin="1"/>
+    </net>
+    <net code="46" name="/SIMRST">
+      <node ref="TV1" pin="1"/>
+      <node ref="IC1" pin="32"/>
+      <node ref="J3" pin="2"/>
+    </net>
+    <net code="47" name="Net-(R1-Pad1)">
+      <node ref="U1" pin="5"/>
+      <node ref="R1" pin="1"/>
+    </net>
+    <net code="48" name="Net-(R2-Pad2)">
+      <node ref="R2" pin="2"/>
+      <node ref="R3" pin="2"/>
+      <node ref="U1" pin="1"/>
+    </net>
+    <net code="49" name="/ARD_HRX">
+      <node ref="U2" pin="10"/>
+      <node ref="IC1" pin="14"/>
+    </net>
+    <net code="50" name="Net-(LED3-Pad2)">
+      <node ref="R8" pin="1"/>
+      <node ref="LED3" pin="2"/>
+    </net>
+    <net code="51" name="Net-(J2-Pad2)">
+      <node ref="LED5" pin="1"/>
+      <node ref="LED4" pin="1"/>
+      <node ref="J2" pin="2"/>
+      <node ref="LED3" pin="1"/>
+    </net>
+    <net code="52" name="/ARD_HTX">
+      <node ref="IC1" pin="15"/>
+      <node ref="U2" pin="9"/>
+    </net>
+    <net code="53" name="/WAKE_UP">
+      <node ref="R12" pin="1"/>
+      <node ref="U5" pin="3"/>
+      <node ref="U2" pin="1"/>
+    </net>
+    <net code="54" name="Net-(BT2-Pad1)">
+      <node ref="BT2" pin="1"/>
+      <node ref="U5" pin="14"/>
+    </net>
+    <net code="55" name="+3.3VP">
+      <node ref="R11" pin="1"/>
+      <node ref="U5" pin="2"/>
+      <node ref="U3" pin="8"/>
+      <node ref="C4" pin="1"/>
+    </net>
+    <net code="56" name="Net-(C9-Pad1)">
+      <node ref="C9" pin="1"/>
+      <node ref="IC1" pin="17"/>
+    </net>
+    <net code="57" name="+BATT">
+      <node ref="D1" pin="1"/>
+      <node ref="IC1" pin="6"/>
+      <node ref="U1" pin="3"/>
+      <node ref="BT1" pin="1"/>
+      <node ref="C3" pin="1"/>
+      <node ref="C16" pin="1"/>
+      <node ref="Q1" pin="2"/>
+      <node ref="IC1" pin="4"/>
+      <node ref="IC1" pin="5"/>
+      <node ref="C17" pin="1"/>
+      <node ref="C18" pin="1"/>
+    </net>
+    <net code="59" name="Net-(C2-Pad1)">
+      <node ref="C2" pin="1"/>
+      <node ref="U2" pin="20"/>
+    </net>
+    <net code="60" name="Net-(IC1-Pad13)">
+      <node ref="IC1" pin="13"/>
+      <node ref="R13" pin="1"/>
+    </net>
+    <net code="61" name="/SIM808_RI">
+      <node ref="IC1" pin="10"/>
+      <node ref="U2" pin="32"/>
+    </net>
+    <net code="62" name="/ARD_RST">
+      <node ref="C5" pin="1"/>
+      <node ref="IC1" pin="16"/>
+      <node ref="U2" pin="29"/>
+      <node ref="ICSP1" pin="5"/>
+      <node ref="SW1" pin="2"/>
+      <node ref="R6" pin="1"/>
+    </net>
+    <net code="63" name="Net-(U2-Pad25)">
+      <node ref="U2" pin="25"/>
+    </net>
+    <net code="64" name="Net-(U2-Pad26)">
+      <node ref="U2" pin="26"/>
+    </net>
+    <net code="65" name="Net-(U2-Pad19)">
+      <node ref="U2" pin="19"/>
+    </net>
+    <net code="66" name="Net-(U2-Pad24)">
+      <node ref="U2" pin="24"/>
+    </net>
+    <net code="67" name="Net-(U2-Pad7)">
+      <node ref="U2" pin="7"/>
+    </net>
+    <net code="68" name="Net-(U2-Pad8)">
+      <node ref="U2" pin="8"/>
+    </net>
+    <net code="69" name="Net-(U2-Pad11)">
+      <node ref="U2" pin="11"/>
+    </net>
+    <net code="70" name="Net-(U2-Pad22)">
+      <node ref="U2" pin="22"/>
+    </net>
+    <net code="71" name="Net-(J3-Pad6)">
+      <node ref="J3" pin="6"/>
+    </net>
+    <net code="72" name="/SIMDATA">
+      <node ref="J3" pin="7"/>
+      <node ref="TV1" pin="6"/>
+      <node ref="IC1" pin="30"/>
+    </net>
+    <net code="73" name="/SIMCLK">
+      <node ref="TV1" pin="5"/>
+      <node ref="J3" pin="3"/>
+      <node ref="IC1" pin="31"/>
+    </net>
+    <net code="74" name="Net-(IC1-Pad9)">
+      <node ref="IC1" pin="9"/>
+    </net>
+    <net code="75" name="Net-(IC1-Pad46)">
+      <node ref="IC1" pin="46"/>
+    </net>
+    <net code="76" name="Net-(IC1-Pad37)">
+      <node ref="IC1" pin="37"/>
+    </net>
+    <net code="77" name="Net-(IC1-Pad47)">
+      <node ref="IC1" pin="47"/>
+    </net>
+    <net code="78" name="Net-(IC1-Pad62)">
+      <node ref="IC1" pin="62"/>
+    </net>
+    <net code="79" name="Net-(IC1-Pad41)">
+      <node ref="IC1" pin="41"/>
+    </net>
+    <net code="80" name="Net-(IC1-Pad61)">
+      <node ref="IC1" pin="61"/>
+    </net>
+    <net code="81" name="Net-(IC1-Pad12)">
+      <node ref="IC1" pin="12"/>
+    </net>
+    <net code="82" name="Net-(IC1-Pad42)">
+      <node ref="IC1" pin="42"/>
+    </net>
+    <net code="83" name="Net-(IC1-Pad23)">
+      <node ref="IC1" pin="23"/>
+    </net>
+    <net code="84" name="Net-(IC1-Pad63)">
+      <node ref="IC1" pin="63"/>
+    </net>
+    <net code="85" name="Net-(IC1-Pad60)">
+      <node ref="IC1" pin="60"/>
+    </net>
+    <net code="86" name="Net-(IC1-Pad11)">
+      <node ref="IC1" pin="11"/>
+    </net>
+    <net code="87" name="Net-(IC1-Pad59)">
+      <node ref="IC1" pin="59"/>
+    </net>
+    <net code="88" name="Net-(IC1-Pad19)">
+      <node ref="IC1" pin="19"/>
+    </net>
+    <net code="89" name="Net-(IC1-Pad20)">
+      <node ref="IC1" pin="20"/>
+    </net>
+    <net code="90" name="Net-(IC1-Pad38)">
+      <node ref="IC1" pin="38"/>
+    </net>
+    <net code="91" name="Net-(IC1-Pad39)">
+      <node ref="IC1" pin="39"/>
+    </net>
+    <net code="92" name="Net-(U5-Pad1)">
+      <node ref="U5" pin="1"/>
+    </net>
+    <net code="93" name="Net-(U5-Pad4)">
+      <node ref="U5" pin="4"/>
+    </net>
+    <net code="94" name="Net-(C6-Pad1)">
+      <node ref="U4" pin="3"/>
+      <node ref="Q1" pin="3"/>
+      <node ref="C6" pin="1"/>
+      <node ref="D3" pin="1"/>
+    </net>
+    <net code="95" name="+3V3_FDTI">
+      <node ref="U6" pin="14"/>
+      <node ref="C12" pin="1"/>
+      <node ref="LED6" pin="1"/>
+      <node ref="U6" pin="13"/>
+      <node ref="LED7" pin="1"/>
+      <node ref="U6" pin="3"/>
+    </net>
+    <net code="96" name="Net-(R19-Pad1)">
+      <node ref="U6" pin="10"/>
+      <node ref="R19" pin="1"/>
+    </net>
+    <net code="97" name="Net-(R18-Pad1)">
+      <node ref="R18" pin="1"/>
+      <node ref="U6" pin="17"/>
+    </net>
+    <net code="98" name="Net-(J1-Pad4)">
+      <node ref="J1" pin="4"/>
+    </net>
+    <net code="99" name="Net-(U6-Pad2)">
+      <node ref="U6" pin="2"/>
+    </net>
+    <net code="100" name="Net-(U6-Pad7)">
+      <node ref="U6" pin="7"/>
+    </net>
+    <net code="101" name="Net-(R17-Pad2)">
+      <node ref="U6" pin="12"/>
+      <node ref="R17" pin="2"/>
+    </net>
+    <net code="102" name="Net-(LED7-Pad2)">
+      <node ref="LED7" pin="2"/>
+      <node ref="R19" pin="2"/>
+    </net>
+    <net code="103" name="Net-(C13-Pad1)">
+      <node ref="C13" pin="1"/>
+      <node ref="R16" pin="2"/>
+      <node ref="J1" pin="3"/>
+    </net>
+    <net code="104" name="Net-(C11-Pad1)">
+      <node ref="R17" pin="1"/>
+      <node ref="J1" pin="2"/>
+      <node ref="C11" pin="1"/>
+    </net>
+    <net code="105" name="Net-(R16-Pad1)">
+      <node ref="U6" pin="11"/>
+      <node ref="R16" pin="1"/>
+    </net>
+    <net code="106" name="Net-(LED6-Pad2)">
+      <node ref="LED6" pin="2"/>
+      <node ref="R18" pin="2"/>
+    </net>
+    <net code="107" name="Net-(U6-Pad19)">
+      <node ref="U6" pin="19"/>
+    </net>
+    <net code="108" name="Net-(U6-Pad18)">
+      <node ref="U6" pin="18"/>
+    </net>
+    <net code="109" name="Net-(U6-Pad8)">
+      <node ref="U6" pin="8"/>
+    </net>
+    <net code="110" name="Net-(U6-Pad5)">
+      <node ref="U6" pin="5"/>
+    </net>
+  </nets>
+</export>

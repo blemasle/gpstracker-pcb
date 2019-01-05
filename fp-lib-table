@@ -2,4 +2,6 @@
   (lib (name SIM808)(type Legacy)(uri "$(KIPRJMOD)/library/SIM808.mod")(options "")(descr ""))
   (lib (name acronet)(type KiCad)(uri "$(KIPRJMOD)/library/acronet.pretty")(options "")(descr ""))
   (lib (name 104031-0811)(type Legacy)(uri "$(KIPRJMOD)/library/104031-0811.mod")(options "")(descr ""))
+  (lib (name custom-conn)(type KiCad)(uri "$(KIPRJMOD)/library/custom-conn.pretty")(options "")(descr ""))
+  (lib (name custom-ic)(type KiCad)(uri "$(KIPRJMOD)/library/custom-ic.pretty")(options "")(descr ""))
 )
