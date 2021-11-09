@@ -1,6 +1,6 @@
 # High autonomy GPS tracker.
 
-A custom Arduino 2 layers PCB done with [Kicad](http://kicad-pcb.org/) meant to be use with a dedicated [firmware](https://github.com/blemasle/gpstracker-firmware). The result is a high autonomy GPS tracker that can be use to track moving vehicules.
+A custom Arduino 2 layers PCB done with [Kicad](http://kicad.org/) meant to be use with a dedicated [firmware](https://github.com/blemasle/gpstracker-firmware). The result is a high autonomy GPS tracker that can be use to track moving vehicules.
 
 <img alt="PCB front" src="https://raw.githubusercontent.com/blemasle/gpstracker-pcb/assets/board-front.png" width="45%"></img> <img alt="PCB back" src="https://raw.githubusercontent.com/blemasle/gpstracker-pcb/assets/board-back.png" width="45%"></img>
 
